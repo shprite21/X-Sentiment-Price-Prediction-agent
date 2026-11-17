@@ -1,0 +1,61 @@
+{
+  "mode": "REAL_HISTORICAL",
+  "asset": "BTC-USD",
+  "selected_model": "boosting",
+  "model_version": "4630dc316a3ccd2d92c79233a0303cc86678c5a31ff22be4977ca7393b94b61f",
+  "training_timestamp": "2026-11-17T08:23:09.605551+00:00",
+  "data_cutoff": "2021-08-05T00:00:00+00:00",
+  "feature_cutoff": "2021-08-05T00:00:00+00:00",
+  "prediction_timestamp": "2026-11-17T08:23:09.605551+00:00",
+  "forecast_origin": "2021-08-05T00:00:00+00:00",
+  "forecasts": [
+    {
+      "horizon": 0,
+      "time": "2021-08-05T00:00:00+00:00",
+      "price": 39722.41,
+      "kind": "observed",
+      "log_return": 0.0,
+      "simple_return": 0.0
+    },
+    {
+      "horizon": 1,
+      "time": "2021-08-05T01:00:00+00:00",
+      "price": 39735.30540067598,
+      "kind": "forecast",
+      "log_return": 0.00032458523943609406,
+      "simple_return": 0.00032463792292486404
+    },
+    {
+      "horizon": 2,
+      "time": "2021-08-05T02:00:00+00:00",
+      "price": 39756.33420828406,
+      "kind": "forecast",
+      "log_return": 0.0008536674976982831,
+      "simple_return": 0.0008540319755035031
+    },
+    {
+      "horizon": 3,
+      "time": "2021-08-05T03:00:00+00:00",
+      "price": 39779.33079555525,
+      "kind": "forecast",
+      "log_return": 0.0014319385893126339,
+      "simple_return": 0.0014329643029022782
+    },
+    {
+      "horizon": 4,
+      "time": "2021-08-05T04:00:00+00:00",
+      "price": 39785.90946502001,
+      "kind": "forecast",
+      "log_return": 0.0015973040041144726,
+      "simple_return": 0.0015985803736481734
+    },
+    {
+      "horizon": 5,
+      "time": "2021-08-05T05:00:00+00:00",
+      "price": 39804.29424242295,
+      "kind": "forecast",
+      "log_return": 0.002059289948955264,
+      "simple_return": 0.002061411742715078
+    }
+  ]
+}

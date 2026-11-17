@@ -1,0 +1,8 @@
+{
+  "searchTerms": ["{query}"],
+  "start": "{start}",
+  "end": "{end}",
+  "sort": "Latest",
+  "tweetLanguage": "en",
+  "maxItems": "{limit}"
+}

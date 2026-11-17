@@ -1,0 +1,81 @@
+[
+  {
+    "slug": "omermetinn/tweets-about-the-top-companies-from-2015-to-2020",
+    "license": "CC0: Public Domain",
+    "updated": "2020-11-26T16:25:11.31Z",
+    "version": 1,
+    "files": {
+      "Company.csv": 124,
+      "Company_Tweet.csv": 110248425,
+      "Tweet.csv": 662090598
+    },
+    "file_probed": "Company.csv",
+    "http_status": 206,
+    "received_bytes": 124,
+    "content_type": "application/octet-stream",
+    "content_range": "bytes 0-123/124"
+  },
+  {
+    "slug": "alaix14/bitcoin-tweets-20160101-to-20190329",
+    "license": "CC0: Public Domain",
+    "updated": "2019-11-23T16:39:11.02Z",
+    "version": 2,
+    "files": {
+      "tweets.csv": 4191769051
+    },
+    "file_probed": "tweets.csv",
+    "http_status": 206,
+    "received_bytes": 1024,
+    "content_type": "application/zip",
+    "content_range": "bytes 0-1023/1700101813"
+  },
+  {
+    "slug": "andreapenasmartinez/bitcoin-twitter-sentiment-dataset-20132023",
+    "license": "CC0: Public Domain",
+    "updated": "2025-05-18T18:24:38.363Z",
+    "version": 1,
+    "files": {
+      "Spambots.csv": 1490611984,
+      "dataset_combinado_completo.csv": 11342234396,
+      "dataset_sin_spam.csv": 9853405128,
+      "englishtweets.csv": 9103647429,
+      "engtweetsbtc_clean.csv": 6283614131,
+      "engtweetsbtc_vader_sentiment.csv": 5965920131,
+      "otherlanguages.csv": 830037875
+    },
+    "file_probed": "Spambots.csv",
+    "http_status": 206,
+    "received_bytes": 1024,
+    "content_type": "text/csv",
+    "content_range": "bytes 0-1023/1490611984"
+  },
+  {
+    "slug": "kaushiksuresh147/bitcoin-tweets",
+    "license": "CC0: Public Domain",
+    "updated": "2023-03-10T15:55:30.037Z",
+    "version": 54,
+    "files": {
+      "Bitcoin_tweets.csv": 2096003272,
+      "Bitcoin_tweets_dataset_2.csv": 74784515
+    },
+    "file_probed": "Bitcoin_tweets.csv",
+    "http_status": 206,
+    "received_bytes": 1024,
+    "content_type": "application/zip",
+    "content_range": "bytes 0-1023/702724074"
+  },
+  {
+    "slug": "pokeash/bitcoin-tweets-dataset-20252026",
+    "license": "CC0: Public Domain",
+    "updated": "2026-03-04T08:07:10.643Z",
+    "version": 1,
+    "files": {
+      "bitcoin_tweets_latest.csv": 2095920736
+    },
+    "file_probed": "bitcoin_tweets_latest.csv",
+    "http_status": 206,
+    "received_bytes": 1024,
+    "content_type": "text/csv",
+    "content_range": "bytes 0-1023/2095920736"
+  }
+]

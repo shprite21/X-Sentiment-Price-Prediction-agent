@@ -1,0 +1,15 @@
+[research]
+asset = "BTC-USD"
+ticker = "BTC"
+company = "Bitcoin"
+keywords = ["Bitcoin", "BTC"]
+exchange = "24/7"
+timezone = "UTC"
+interval = "1h"
+sentiment_engine = "finbert"
+finbert_path = "data/models/finbert"
+availability = "publication"
+test_size = 336
+cost_bps = 10.0
+slippage_bps = 2.0
+seed = 42

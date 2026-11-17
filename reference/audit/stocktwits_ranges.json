@@ -1,0 +1,1906 @@
+[
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_00.csv",
+    "total_bytes": 112281664,
+    "first": 0,
+    "last": 65535,
+    "sha256": "7392c126d275d644ea65764023dc70ebb10b680efcb6729201dcc9a174a50083"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_00.csv",
+    "total_bytes": 112281664,
+    "first": 14027016,
+    "last": 14092551,
+    "sha256": "1c12654c5b26cbc68f0064e06021aa28ae0a1f7fd68c4bef79b313c7fc8426f4"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_00.csv",
+    "total_bytes": 112281664,
+    "first": 28054032,
+    "last": 28119567,
+    "sha256": "4d93cac4fe588a6e5a2c171d21a189292e043181718f7854a48a67e6d74244d4"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_00.csv",
+    "total_bytes": 112281664,
+    "first": 42081048,
+    "last": 42146583,
+    "sha256": "4a8c35b07bbb74d2bab595f585160a5848e5470a3c446c59a8a5d97c68a46798"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_00.csv",
+    "total_bytes": 112281664,
+    "first": 56108064,
+    "last": 56173599,
+    "sha256": "9643838c364617bf33ddfbce22e5d20e4eca45093ec4646a116ff2485123a0e0"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_00.csv",
+    "total_bytes": 112281664,
+    "first": 70135080,
+    "last": 70200615,
+    "sha256": "e055b9d2d2a8e9cddb9bb74da7e6d3dee2e5bce55b92f7d7d4b2518b11f6e738"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_00.csv",
+    "total_bytes": 112281664,
+    "first": 84162096,
+    "last": 84227631,
+    "sha256": "3d06c8a0d5b45a94e2514fdd548fb2a60922b5900f0b1c55ad351e216aa38e90"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_00.csv",
+    "total_bytes": 112281664,
+    "first": 98189112,
+    "last": 98254647,
+    "sha256": "c995be8b6f90dd736dfd0795a1ba1d10b58cc6513dc41f2baf75fd116cedb651"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_01.csv",
+    "total_bytes": 139050506,
+    "first": 0,
+    "last": 65535,
+    "sha256": "56a8983581af4df8016d235d9a401da67b8e65ab7c846edb7508ccdfb7f62e7a"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_01.csv",
+    "total_bytes": 139050506,
+    "first": 17373121,
+    "last": 17438656,
+    "sha256": "b64c0529f2dd81616aaddc5d0778ccb9dff00287d438ccdb54f3bc91d346c120"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_01.csv",
+    "total_bytes": 139050506,
+    "first": 34746242,
+    "last": 34811777,
+    "sha256": "4d30321c0c992957a354cdbd00849f4c5c9fe6cb523ec33b848ae116fa7288e5"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_01.csv",
+    "total_bytes": 139050506,
+    "first": 52119363,
+    "last": 52184898,
+    "sha256": "e52cc8296d5962cc163132fa75f4ecb98079e1c552be947f26b970dca5bf2476"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_01.csv",
+    "total_bytes": 139050506,
+    "first": 69492485,
+    "last": 69558020,
+    "sha256": "21710eff43a3d33eaf2998944bc117886e7a27edc7da6248f2547bdc3e6bfd63"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_01.csv",
+    "total_bytes": 139050506,
+    "first": 86865606,
+    "last": 86931141,
+    "sha256": "dab046b0dd6d310b4b145dbe0e3a171a659e003e4f7a2ca8725977a346458179"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_01.csv",
+    "total_bytes": 139050506,
+    "first": 104238727,
+    "last": 104304262,
+    "sha256": "3d68fac90ae562ba37cdbd1bf4152e63ab0e8b9f47ba100db76160509e38b95d"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_01.csv",
+    "total_bytes": 139050506,
+    "first": 121611848,
+    "last": 121677383,
+    "sha256": "56113f0eb2e7e8fa1600c6c46d6d35a46ffbfcfd84593d2ada5cc47c985efd70"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_02.csv",
+    "total_bytes": 139066217,
+    "first": 0,
+    "last": 65535,
+    "sha256": "57ead964fe8a71f4f11eefb415669d54d9974b68783cfc2a3a48f9e9ce24a31c"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_02.csv",
+    "total_bytes": 139066217,
+    "first": 17375085,
+    "last": 17440620,
+    "sha256": "fd615d8864d28d62fb29e417025efa3567a90aef3048054f57acd3656fddc022"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_02.csv",
+    "total_bytes": 139066217,
+    "first": 34750170,
+    "last": 34815705,
+    "sha256": "a31c9e3322400e788e6b11603ec26a25e858a9015e48e3638222a616e1557e05"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_02.csv",
+    "total_bytes": 139066217,
+    "first": 52125255,
+    "last": 52190790,
+    "sha256": "367fe50ea4be300e515d09ebd3a4982605fe963ee38834c7fd4477b2a1c42bbe"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_02.csv",
+    "total_bytes": 139066217,
+    "first": 69500340,
+    "last": 69565875,
+    "sha256": "1720e61214b50661ff284f87b4393fb8b0a07d5859af00e7ae3f8417af29e0c2"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_02.csv",
+    "total_bytes": 139066217,
+    "first": 86875425,
+    "last": 86940960,
+    "sha256": "a53c2e11f0ec156df1f002fbaa7087277916c3ebe64f5a58903aa1a170de891d"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_02.csv",
+    "total_bytes": 139066217,
+    "first": 104250510,
+    "last": 104316045,
+    "sha256": "224afa3fc3904a002ca058db39221187f3ca4a3e4260c83d359d3ad2aa4c99b7"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_02.csv",
+    "total_bytes": 139066217,
+    "first": 121625595,
+    "last": 121691130,
+    "sha256": "904a45cb64793ab18335d5e9fd88c58efdbc74a42da8c9df736dcf58178c644b"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_03.csv",
+    "total_bytes": 137201443,
+    "first": 0,
+    "last": 65535,
+    "sha256": "3ca6676a574e65972e6ca2effc60fcf928b869d4ee5e1cc180c537534fba2cab"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_03.csv",
+    "total_bytes": 137201443,
+    "first": 17141988,
+    "last": 17207523,
+    "sha256": "c2451722e18e4aee9b062ca886203d23a699a487823bc06b7a9511e01a780e96"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_03.csv",
+    "total_bytes": 137201443,
+    "first": 34283976,
+    "last": 34349511,
+    "sha256": "094d8c2eab1ca94289852105117b9318b0bc268a03e59f46a97411d98298f1c6"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_03.csv",
+    "total_bytes": 137201443,
+    "first": 51425965,
+    "last": 51491500,
+    "sha256": "322b20d490ae02af0ae1f67e8a13ccb7e7dd9aad3b288d6764cf66b893e4ac5b"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_03.csv",
+    "total_bytes": 137201443,
+    "first": 68567953,
+    "last": 68633488,
+    "sha256": "d6d2f3fe578cf3e535258f5cfd7db6a3e84caf356250dddcde098a2bf61be065"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_03.csv",
+    "total_bytes": 137201443,
+    "first": 85709941,
+    "last": 85775476,
+    "sha256": "714276b253d52c5dd934ec78cff9e44349b0c612bd10fe0bf15e20adba7f6581"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_03.csv",
+    "total_bytes": 137201443,
+    "first": 102851930,
+    "last": 102917465,
+    "sha256": "eeb08534244ead83fd6a650424b4e72cd426f173e1735a0ee0ebe3e5191c434c"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_03.csv",
+    "total_bytes": 137201443,
+    "first": 119993918,
+    "last": 120059453,
+    "sha256": "734101406843a6a7b19d9c76df7576725258b783ca55a8acdfbd0463be0a8e49"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_04.csv",
+    "total_bytes": 136418095,
+    "first": 0,
+    "last": 65535,
+    "sha256": "b1d8f7155d691984bb40ffedad18794e6d6b97e9bfb066aed4fd6458c08a690f"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_04.csv",
+    "total_bytes": 136418095,
+    "first": 17044069,
+    "last": 17109604,
+    "sha256": "5559639e0314f1c0012919f8881574f1b9e98e6133f2f58085df426f181353b5"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_04.csv",
+    "total_bytes": 136418095,
+    "first": 34088139,
+    "last": 34153674,
+    "sha256": "a34f8a7be21654eb7ea65801e1c8c9d130ce3bd78c05fa5bc6d172700c030fb4"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_04.csv",
+    "total_bytes": 136418095,
+    "first": 51132209,
+    "last": 51197744,
+    "sha256": "17b4b3459a9fca6e20d3368d13df6d1f63c815ce689d9bb7af0d61124b20e3b1"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_04.csv",
+    "total_bytes": 136418095,
+    "first": 68176279,
+    "last": 68241814,
+    "sha256": "f0b99ff4741c243da4009eb2b80f973173793ef667556a1ca5b1fa1bebea382f"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_04.csv",
+    "total_bytes": 136418095,
+    "first": 85220349,
+    "last": 85285884,
+    "sha256": "d8dab86cb3498806729dada25b56c44914fb7a3a912b4324b74e858637c631a9"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_04.csv",
+    "total_bytes": 136418095,
+    "first": 102264419,
+    "last": 102329954,
+    "sha256": "2a0e71e6e81d56232c3e82590a79e3d1bbe16c26e8503b2325a29ced6a42b992"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_04.csv",
+    "total_bytes": 136418095,
+    "first": 119308489,
+    "last": 119374024,
+    "sha256": "53367e4f2cdec55c13250d4bf8246ff1334608734049d297ddeeee875e55b896"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_05.csv",
+    "total_bytes": 137318722,
+    "first": 0,
+    "last": 65535,
+    "sha256": "fbc39b1c26def3a819f843cd4b33b62a57d7cc4dc368183599189ba3132aa134"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_05.csv",
+    "total_bytes": 137318722,
+    "first": 17156648,
+    "last": 17222183,
+    "sha256": "64e4dcfc9ec924b2c7414d29cd60f5bd96b550fafba3b11490f53ddd2d6f9b28"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_05.csv",
+    "total_bytes": 137318722,
+    "first": 34313296,
+    "last": 34378831,
+    "sha256": "c00d0bb183a834cffa445ff5feb694548b545da59fc3a017a69ce90ec1171272"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_05.csv",
+    "total_bytes": 137318722,
+    "first": 51469944,
+    "last": 51535479,
+    "sha256": "e9f3a3d14d52cf768962f7c4284e46c85fe51045bac88021e928f986c2856257"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_05.csv",
+    "total_bytes": 137318722,
+    "first": 68626593,
+    "last": 68692128,
+    "sha256": "3fa4014feb35911cfc90c00970559d5c00bc2720ba1715d7151f015e2b9976de"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_05.csv",
+    "total_bytes": 137318722,
+    "first": 85783241,
+    "last": 85848776,
+    "sha256": "ecc0f531af796d8b581200311aa400f66c3e8cae5527c03b18cfa808d056c680"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_05.csv",
+    "total_bytes": 137318722,
+    "first": 102939889,
+    "last": 103005424,
+    "sha256": "90ce401018e82a61df65beba72ee070cb965c947e8ed748cb87df531b6f89ec6"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_05.csv",
+    "total_bytes": 137318722,
+    "first": 120096537,
+    "last": 120162072,
+    "sha256": "807c03c5e0f347c350edfefa52c6eac949f7f7e4750e35b6fe3e4a23eb47e10f"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_06.csv",
+    "total_bytes": 139613637,
+    "first": 0,
+    "last": 65535,
+    "sha256": "7080fc553455519a535e3afa19a33de6ec8cedba125da61d96589c35bf856c4a"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_06.csv",
+    "total_bytes": 139613637,
+    "first": 17443512,
+    "last": 17509047,
+    "sha256": "607a1e5daf241e73e529c4dd28315be6fce3395f176e3eeec2810b2706ee27ed"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_06.csv",
+    "total_bytes": 139613637,
+    "first": 34887025,
+    "last": 34952560,
+    "sha256": "34038bad134b85a3eb3d17094bb63503e072dd7f24dbd72c2cd2381bef73343b"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_06.csv",
+    "total_bytes": 139613637,
+    "first": 52330537,
+    "last": 52396072,
+    "sha256": "b4b25b0d91c8e705feffd683dcb47d2097eb7920ed818b4c9f5baeb965b97c8b"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_06.csv",
+    "total_bytes": 139613637,
+    "first": 69774050,
+    "last": 69839585,
+    "sha256": "f678b65d9f5b1f68e55a299520a751454ab71654b13bd5eaace1666c06d5c4bf"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_06.csv",
+    "total_bytes": 139613637,
+    "first": 87217563,
+    "last": 87283098,
+    "sha256": "9918377f47bed9a05e0fe982b1d76efa2b31674e022f8476104bf23835418f4b"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_06.csv",
+    "total_bytes": 139613637,
+    "first": 104661075,
+    "last": 104726610,
+    "sha256": "608e26c0fc4ac0668579a0883f57b2e10d0977570f9db47b7cdb120e8f5b11c8"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_06.csv",
+    "total_bytes": 139613637,
+    "first": 122104588,
+    "last": 122170123,
+    "sha256": "e6ddd184e17ce839c3deed7138a5b957a618f12e84c6b2294b288cf79d41b5e4"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_07.csv",
+    "total_bytes": 139208380,
+    "first": 0,
+    "last": 65535,
+    "sha256": "5a9e465da1bb7b800ce342b8cae76c1fa93faefb774fbdd3afc204b9d3bcb455"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_07.csv",
+    "total_bytes": 139208380,
+    "first": 17392855,
+    "last": 17458390,
+    "sha256": "4a644e0984529db9b6ee68dba238a1d3fff7a9a732ed1e75f75267867ee8c8f4"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_07.csv",
+    "total_bytes": 139208380,
+    "first": 34785711,
+    "last": 34851246,
+    "sha256": "588036dff3653eea4c68a2374172cbd31b5a9aef1777ef58f845a9f8f15f5ee6"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_07.csv",
+    "total_bytes": 139208380,
+    "first": 52178566,
+    "last": 52244101,
+    "sha256": "146d558a431ebeaeb3afdb3f463b9a10d5e6834978a4ce53860a418b2fcda9cd"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_07.csv",
+    "total_bytes": 139208380,
+    "first": 69571422,
+    "last": 69636957,
+    "sha256": "edaaaa4b4b87f1372edc49c49f3012db0f363c081ef21a2c4271d44f257b9a73"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_07.csv",
+    "total_bytes": 139208380,
+    "first": 86964277,
+    "last": 87029812,
+    "sha256": "1e46113239b221a5d2627f81072649c1a4e9a6011a770f0569ddaf7d38e03015"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_07.csv",
+    "total_bytes": 139208380,
+    "first": 104357133,
+    "last": 104422668,
+    "sha256": "96d2fd58bc2178694c2ae433a99dac4232aa8c4a6ee3635f8b63d8c8fa0b0b65"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_07.csv",
+    "total_bytes": 139208380,
+    "first": 121749988,
+    "last": 121815523,
+    "sha256": "59cb9c091d2b30bb69efaa80b2715981d4fbdcfea54bd9ec28ec3de1c0de1521"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_08.csv",
+    "total_bytes": 139073842,
+    "first": 0,
+    "last": 65535,
+    "sha256": "e0bfcb2aed3d3f1443768b9ee3729530e30cd9d011364fa84b0a17e7deca2b0d"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_08.csv",
+    "total_bytes": 139073842,
+    "first": 17376038,
+    "last": 17441573,
+    "sha256": "b5b5849c15427573e813d553936b0b550bc4ae452571268613894dceefdf00ea"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_08.csv",
+    "total_bytes": 139073842,
+    "first": 34752076,
+    "last": 34817611,
+    "sha256": "7576d13c80d215f24f90d1d4b01609081a1769df1fa6dcc84de231ae7a25cfb6"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_08.csv",
+    "total_bytes": 139073842,
+    "first": 52128114,
+    "last": 52193649,
+    "sha256": "9d37fac89106ac00492233e4ceee4d1a0cc3d5667b97097846d0ae848b28bd6b"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_08.csv",
+    "total_bytes": 139073842,
+    "first": 69504153,
+    "last": 69569688,
+    "sha256": "f5d5a217f8634306fe992cad1ec093d6f6779edf3b21df7abec3c71a0d12b4e1"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_08.csv",
+    "total_bytes": 139073842,
+    "first": 86880191,
+    "last": 86945726,
+    "sha256": "b6582632d857de516cafc475c068badd34290d11791ed02aa3c22fdf69002e81"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_08.csv",
+    "total_bytes": 139073842,
+    "first": 104256229,
+    "last": 104321764,
+    "sha256": "dcf4d666936d98a493f556f3e818017d28abbe7895c7433d8c129586757d83fd"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_08.csv",
+    "total_bytes": 139073842,
+    "first": 121632267,
+    "last": 121697802,
+    "sha256": "03352b8f4716ab0a6940639d1e9586e8a9400849eb757446450ed6af80b7cb53"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_09.csv",
+    "total_bytes": 136491408,
+    "first": 0,
+    "last": 65535,
+    "sha256": "ff7be124c0913ae59a812496221cdcca304ed137100c9c13954ba6c78480bf56"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_09.csv",
+    "total_bytes": 136491408,
+    "first": 17053234,
+    "last": 17118769,
+    "sha256": "1384edefd0ce59de9a4cd5d4a9a0246ce7000cde42326315dfd156d5fa0fe010"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_09.csv",
+    "total_bytes": 136491408,
+    "first": 34106468,
+    "last": 34172003,
+    "sha256": "77d2fe75967f900564d030e9217b7ae72c28c0b4f49bd7b6c58c1e2ea0fb171c"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_09.csv",
+    "total_bytes": 136491408,
+    "first": 51159702,
+    "last": 51225237,
+    "sha256": "0acd6b32a11f35eadbc5946efc810e2eb6096891599ce9bcfbeeb1d1bf16b622"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_09.csv",
+    "total_bytes": 136491408,
+    "first": 68212936,
+    "last": 68278471,
+    "sha256": "4678a1839088274cceab93bfa59a449bb1a9cfceb7f04c443b24ff0f336f9547"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_09.csv",
+    "total_bytes": 136491408,
+    "first": 85266170,
+    "last": 85331705,
+    "sha256": "f9f88e703cf599633adf9e38e818cdc9ddf84d8ec74e4a5d6a1234c2d813970b"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_09.csv",
+    "total_bytes": 136491408,
+    "first": 102319404,
+    "last": 102384939,
+    "sha256": "1d01d07ab5db67a3907c8b39a3d7336508580ae6c09a617a784297f9ab9e831e"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_09.csv",
+    "total_bytes": 136491408,
+    "first": 119372638,
+    "last": 119438173,
+    "sha256": "b989c193983646c68feb3628b10c1f7aa2f8f86ab0143e15d38dad077db6efa1"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_10.csv",
+    "total_bytes": 136615549,
+    "first": 0,
+    "last": 65535,
+    "sha256": "2ed13d151b58c5d684a3e303549db498dcf813494499cdce6e5a4e387bf8a18d"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_10.csv",
+    "total_bytes": 136615549,
+    "first": 17068751,
+    "last": 17134286,
+    "sha256": "dcab98090d941c9990ce83a04c72e843b04ba9b6b1c14a90a29315a883387b90"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_10.csv",
+    "total_bytes": 136615549,
+    "first": 34137503,
+    "last": 34203038,
+    "sha256": "d9abc1409b35b634e2544566679b9e7902433bd83c7c516a344a0d30b0f7e700"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_10.csv",
+    "total_bytes": 136615549,
+    "first": 51206254,
+    "last": 51271789,
+    "sha256": "f337d915e5609c7db74e132d12a3afc60a60a17932b36beb2a17c0563c5991dd"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_10.csv",
+    "total_bytes": 136615549,
+    "first": 68275006,
+    "last": 68340541,
+    "sha256": "de51f99bc6e958c3ee59607b799d9c60bbdb3f7ef45610aa033605d0f08dba63"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_10.csv",
+    "total_bytes": 136615549,
+    "first": 85343758,
+    "last": 85409293,
+    "sha256": "84c61f1b5207d5a72f612a59676069536477811de4b13c9b1a184602f14eb2af"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_10.csv",
+    "total_bytes": 136615549,
+    "first": 102412509,
+    "last": 102478044,
+    "sha256": "99b1dbcd6a2f6d694607c165b6c446a1c61290293caf131a23dbd8847d61a9e4"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_10.csv",
+    "total_bytes": 136615549,
+    "first": 119481261,
+    "last": 119546796,
+    "sha256": "41098b489f1d86f82dd8341601be58f1634962201037843c6970d5b3d9ac79d4"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_11.csv",
+    "total_bytes": 136763343,
+    "first": 0,
+    "last": 65535,
+    "sha256": "7745b80cdb61b3a03ce2762b537aa24ed9ed883d709e587fa32d90b6364e8baa"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_11.csv",
+    "total_bytes": 136763343,
+    "first": 17087225,
+    "last": 17152760,
+    "sha256": "1105603086bd2e12c9fe1efa265550faba4667e92879984a7a9bf381a8b54ca7"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_11.csv",
+    "total_bytes": 136763343,
+    "first": 34174451,
+    "last": 34239986,
+    "sha256": "8105b271943ff5714328a1fe17aa378f85347e8f6b12c0f8703fa72c9120bf9e"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_11.csv",
+    "total_bytes": 136763343,
+    "first": 51261677,
+    "last": 51327212,
+    "sha256": "efbc4e03f63fbff072fddacdfb5282e82ac13b2afb1b8eab32fd60a32724de21"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_11.csv",
+    "total_bytes": 136763343,
+    "first": 68348903,
+    "last": 68414438,
+    "sha256": "d1ecae3824e831c02406eb64e5ff15f2066a932eb40c661d0ba5b9acab73437d"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_11.csv",
+    "total_bytes": 136763343,
+    "first": 85436129,
+    "last": 85501664,
+    "sha256": "4e2676692a08da520e64e38e2aed41aa39477d454b20435b71df096b0a10bb3f"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_11.csv",
+    "total_bytes": 136763343,
+    "first": 102523355,
+    "last": 102588890,
+    "sha256": "799cb3b3cd332167f10fc4a94d42f0813cc1f4714a61ea9ac4649afdfe43269b"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_11.csv",
+    "total_bytes": 136763343,
+    "first": 119610581,
+    "last": 119676116,
+    "sha256": "333ac1d264ace534e13e6186600fc2e4c3627009e2a4683fa53b909a8b312fad"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_12.csv",
+    "total_bytes": 139944785,
+    "first": 0,
+    "last": 65535,
+    "sha256": "dfc85302b39603ea3c6ac380a435b2f28ae8450249cbe861951b0718f91aca75"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_12.csv",
+    "total_bytes": 139944785,
+    "first": 17484906,
+    "last": 17550441,
+    "sha256": "e099bab9663e35666376494f252171dbde4120fd1f7551b5224ff2874141e601"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_12.csv",
+    "total_bytes": 139944785,
+    "first": 34969812,
+    "last": 35035347,
+    "sha256": "aba14455bd3eb0522326ffb95f518d71d858cb39cf9821c041ef5c3bcc66dda9"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_12.csv",
+    "total_bytes": 139944785,
+    "first": 52454718,
+    "last": 52520253,
+    "sha256": "d9f15c6e53a16c5e625b0e8d4252b74d946fde249febf5ce92d063a2e0022546"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_12.csv",
+    "total_bytes": 139944785,
+    "first": 69939624,
+    "last": 70005159,
+    "sha256": "2f541360a1f8f7661131c0bcb5e03abf12ca44994b27b4f70be6c270577f1e8b"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_12.csv",
+    "total_bytes": 139944785,
+    "first": 87424530,
+    "last": 87490065,
+    "sha256": "27cfb7de49d2d474ee00def293115eaf0f9a50099264466da6ed3679cd809e73"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_12.csv",
+    "total_bytes": 139944785,
+    "first": 104909436,
+    "last": 104974971,
+    "sha256": "10997a9fba11bd331718a8435d575ed3c6f8301087b906cc4099f04d62f40d74"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_12.csv",
+    "total_bytes": 139944785,
+    "first": 122394342,
+    "last": 122459877,
+    "sha256": "e5bd7255100f84c788e8792d888472b9b973df91c8e4157869d21d53fb471e4e"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_13.csv",
+    "total_bytes": 139286865,
+    "first": 0,
+    "last": 65535,
+    "sha256": "672f2743e266cf9e0a9ff1dddfcd5391cc634953c7bc11e14481e381e1e4cdfe"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_13.csv",
+    "total_bytes": 139286865,
+    "first": 17402666,
+    "last": 17468201,
+    "sha256": "0fe513a217b947c4e1086ce19c45902da2797d6cacb51019e129284d42c9ae68"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_13.csv",
+    "total_bytes": 139286865,
+    "first": 34805332,
+    "last": 34870867,
+    "sha256": "90be91bce2c3f18e4dd0f1255fb9152b3f37350647326e0c5b28db9badc71be8"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_13.csv",
+    "total_bytes": 139286865,
+    "first": 52207998,
+    "last": 52273533,
+    "sha256": "80aefea6bfb54401fd89cbf0dba2b552bc3cf82fe232e1eb292ca2ec09a110a6"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_13.csv",
+    "total_bytes": 139286865,
+    "first": 69610664,
+    "last": 69676199,
+    "sha256": "c64f0dfd854221c42c5540a740b30313e1760ba98ccc88086b1b905c084e6ce1"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_13.csv",
+    "total_bytes": 139286865,
+    "first": 87013330,
+    "last": 87078865,
+    "sha256": "ceef91631bf527c8064c4cbb60b2129af2391c21395394767097075eeeffdf73"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_13.csv",
+    "total_bytes": 139286865,
+    "first": 104415996,
+    "last": 104481531,
+    "sha256": "34b6fe3ada3947fdfb7f5280733296d1c29e196b105e75c8797be641667953f5"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_13.csv",
+    "total_bytes": 139286865,
+    "first": 121818662,
+    "last": 121884197,
+    "sha256": "c7964e1726a5201d48462b975345fb98c5aa90a2b8b8af316f02dca18649d223"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_14.csv",
+    "total_bytes": 139365216,
+    "first": 0,
+    "last": 65535,
+    "sha256": "73b86f772a2df9a0098b679d253091e447512fd224b84f89b7b65d9b8520d87d"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_14.csv",
+    "total_bytes": 139365216,
+    "first": 17412460,
+    "last": 17477995,
+    "sha256": "5147bae05f1430715c9709c8e3f64f5e6321a0ebb946947a1cdb41f27236f43e"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_14.csv",
+    "total_bytes": 139365216,
+    "first": 34824920,
+    "last": 34890455,
+    "sha256": "5ec43ef6618ed98cf5c81c463856c7ef083daac85941375daf07685e211a0e10"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_14.csv",
+    "total_bytes": 139365216,
+    "first": 52237380,
+    "last": 52302915,
+    "sha256": "9ac319d6c80896959bdec651a36a76f9337af127ca635782f4e743fa164057ad"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_14.csv",
+    "total_bytes": 139365216,
+    "first": 69649840,
+    "last": 69715375,
+    "sha256": "b070bf09d1cd0c413534b7471ebda6cc49d07bbb74dd16a9fcaf44e1822327aa"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_14.csv",
+    "total_bytes": 139365216,
+    "first": 87062300,
+    "last": 87127835,
+    "sha256": "003f4e9542afa3149460f25d6964ab0598c4055f1188d4f2ddb4832c0dc06020"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_14.csv",
+    "total_bytes": 139365216,
+    "first": 104474760,
+    "last": 104540295,
+    "sha256": "32a943647b7d67d69b55fc30739722655e0a39530a48a3644b31c275d8f2015c"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_14.csv",
+    "total_bytes": 139365216,
+    "first": 121887220,
+    "last": 121952755,
+    "sha256": "a008eca84135a5639d4669676fd0e93934528926edf29645e952cf67b15a5c25"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_15.csv",
+    "total_bytes": 137663823,
+    "first": 0,
+    "last": 65535,
+    "sha256": "9a0abadf87a0e92ee10d3b6e09ea1972a43ace75ac683a45888502ad3525ddf3"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_15.csv",
+    "total_bytes": 137663823,
+    "first": 17199785,
+    "last": 17265320,
+    "sha256": "be7269a5c3919ac6267e34a8476b4de7a54b3e36e9c247ec88ab1064e9e5e66d"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_15.csv",
+    "total_bytes": 137663823,
+    "first": 34399571,
+    "last": 34465106,
+    "sha256": "fe5ef76304b6c74a879200ea787141ad7a0391725dab0c01874513478f316275"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_15.csv",
+    "total_bytes": 137663823,
+    "first": 51599357,
+    "last": 51664892,
+    "sha256": "dbe29e0e6c9fe7a03abf137e50d0f615e1239a1aad4db7892806916ff66e0524"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_15.csv",
+    "total_bytes": 137663823,
+    "first": 68799143,
+    "last": 68864678,
+    "sha256": "5609092a8b02df84e0324f36f2323d9e1acb5ab34a151f8d1a047570fea5b5f6"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_15.csv",
+    "total_bytes": 137663823,
+    "first": 85998929,
+    "last": 86064464,
+    "sha256": "c7493ff460aa7e0adb32136251002f8b557bebe63a5e013814272060035203b4"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_15.csv",
+    "total_bytes": 137663823,
+    "first": 103198715,
+    "last": 103264250,
+    "sha256": "edc4a43b1fb4b3a919802f8af1caa3b7b073f1eb77226952012841436a547612"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_15.csv",
+    "total_bytes": 137663823,
+    "first": 120398501,
+    "last": 120464036,
+    "sha256": "544462c53d72a1ff8f51268dc8f13c1b4ec778c51b95536fd36632767ed0bef2"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_16.csv",
+    "total_bytes": 136631855,
+    "first": 0,
+    "last": 65535,
+    "sha256": "1ce1dbd52c6151d72d1a6d815d36264a7f1511a5a3a614fe1f15fc385df9e753"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_16.csv",
+    "total_bytes": 136631855,
+    "first": 17070789,
+    "last": 17136324,
+    "sha256": "ae6b232ca6bd2af62aedafb178c3cbd7cc7ffa68845b006c1089748f42054471"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_16.csv",
+    "total_bytes": 136631855,
+    "first": 34141579,
+    "last": 34207114,
+    "sha256": "43ce7832812ba569984358717d74f3d0245396d00c2a8fe1844cb4ed519dabe2"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_16.csv",
+    "total_bytes": 136631855,
+    "first": 51212369,
+    "last": 51277904,
+    "sha256": "c857fd5d2324d068fbac4c5683df87ebe28c67aed9f11005d2acecbc428d7d77"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_16.csv",
+    "total_bytes": 136631855,
+    "first": 68283159,
+    "last": 68348694,
+    "sha256": "4caabb347e98c926d05043b675f167bdcafa9e0c31f816042710db16fb40da38"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_16.csv",
+    "total_bytes": 136631855,
+    "first": 85353949,
+    "last": 85419484,
+    "sha256": "9d0a5492565951d5888be5cf962399aba00fdd8b856179bd35d3647dfb0021f9"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_16.csv",
+    "total_bytes": 136631855,
+    "first": 102424739,
+    "last": 102490274,
+    "sha256": "3c78ed243212245277b31243e9258dbacc5d41d2ee847ae837f3cb5ef8c523d6"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_16.csv",
+    "total_bytes": 136631855,
+    "first": 119495529,
+    "last": 119561064,
+    "sha256": "d2dba2d3bd6ca7d11781ee04415c026ff279fcba8e42ee82ab8b9a2215be249c"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_17.csv",
+    "total_bytes": 136539592,
+    "first": 0,
+    "last": 65535,
+    "sha256": "c7642f5b72d6d0698d3d9e3551f150ac64a1e383ed168a766e772407f93f5d41"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_17.csv",
+    "total_bytes": 136539592,
+    "first": 17059257,
+    "last": 17124792,
+    "sha256": "3864e7b14d55bee8399142e23c09332d08cc0d8ac14a8514cc9b8228b3fd7d1e"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_17.csv",
+    "total_bytes": 136539592,
+    "first": 34118514,
+    "last": 34184049,
+    "sha256": "4737e56f9a813b035ea7e10c7ecbc1f144c8dd234d63d0de2225688b6058fece"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_17.csv",
+    "total_bytes": 136539592,
+    "first": 51177771,
+    "last": 51243306,
+    "sha256": "890e363a730ac1e892cd96f07c4c5e33c07a7b1c8a412c836e2757337d088db1"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_17.csv",
+    "total_bytes": 136539592,
+    "first": 68237028,
+    "last": 68302563,
+    "sha256": "e68145733e39769d3cac4765757d9cde9bd81604b10d696148d73191bde279b4"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_17.csv",
+    "total_bytes": 136539592,
+    "first": 85296285,
+    "last": 85361820,
+    "sha256": "30bed52fdd5b857ffcdb3d959a8fcf0438c1490dae014e51447c231cab3a31c5"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_17.csv",
+    "total_bytes": 136539592,
+    "first": 102355542,
+    "last": 102421077,
+    "sha256": "30eb1aa97d6f5a3bfb6674d6312b84fc12fad664faa3f2ed28c803240a57b448"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_17.csv",
+    "total_bytes": 136539592,
+    "first": 119414799,
+    "last": 119480334,
+    "sha256": "5cba5f001195f51fa2fab5055501de497daf73adde99e83393b1df4aa317f20c"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_18.csv",
+    "total_bytes": 136549859,
+    "first": 0,
+    "last": 65535,
+    "sha256": "0bd1d0524a0ed96ede449500beb55964c4fe593041f0d7e4f7d9e961be500d62"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_18.csv",
+    "total_bytes": 136549859,
+    "first": 17060540,
+    "last": 17126075,
+    "sha256": "e7193c68586518ad49ed19904fd20bf9dadbf69565561b82c52eee43e8b7749d"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_18.csv",
+    "total_bytes": 136549859,
+    "first": 34121080,
+    "last": 34186615,
+    "sha256": "2b4273ce9221e5efbfcb7ce387aac10b8b2eaf883d2b7afd2f9cb7cb324683ba"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_18.csv",
+    "total_bytes": 136549859,
+    "first": 51181621,
+    "last": 51247156,
+    "sha256": "110f21f72efe3c145d2ca898364c2d1dc3851910e6e945e16bb7538b6dde9960"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_18.csv",
+    "total_bytes": 136549859,
+    "first": 68242161,
+    "last": 68307696,
+    "sha256": "7cdc0e42222bff41728eea1e4545cb7da416dd50edf9d0048dfe1204d948aef6"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_18.csv",
+    "total_bytes": 136549859,
+    "first": 85302701,
+    "last": 85368236,
+    "sha256": "f4292bd5be5b0b62e8fdee393a6fe7786f27bf84f50d0bfe1644848d2a2f4e0e"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_18.csv",
+    "total_bytes": 136549859,
+    "first": 102363242,
+    "last": 102428777,
+    "sha256": "c317fec423912f5e74bb38d12293183f150dfd2c323fac59e21dd2e512353a42"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_18.csv",
+    "total_bytes": 136549859,
+    "first": 119423782,
+    "last": 119489317,
+    "sha256": "edebdaa9f47b109e7246d342e0a611a21ff45ca6da0eabf28d3d987dc7f4d118"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_19.csv",
+    "total_bytes": 139123264,
+    "first": 0,
+    "last": 65535,
+    "sha256": "6e0a0b5cd16e322dd453e4493db4e0bdd69623a2a7f760cc0e50d8ab796582a7"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_19.csv",
+    "total_bytes": 139123264,
+    "first": 17382216,
+    "last": 17447751,
+    "sha256": "6f99836891ff82cbc5fc72987aaf67de6cd17af31dd10e8b8685da62324afbb2"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_19.csv",
+    "total_bytes": 139123264,
+    "first": 34764432,
+    "last": 34829967,
+    "sha256": "9c1896b5f120cd91df654469523c766561f09d156ce047adf73e22fbbf2dbfd8"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_19.csv",
+    "total_bytes": 139123264,
+    "first": 52146648,
+    "last": 52212183,
+    "sha256": "4de7643381fbacab9b722f17195fede7ded2abce693663dd96e32997ef9aa76c"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_19.csv",
+    "total_bytes": 139123264,
+    "first": 69528864,
+    "last": 69594399,
+    "sha256": "7c80b62606492b517fe3842f97b274c3c5d0b6eba799c14b228f37e24cf6d79b"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_19.csv",
+    "total_bytes": 139123264,
+    "first": 86911080,
+    "last": 86976615,
+    "sha256": "8a87be7c5b68517fb0f26955e3ba0e06c367cd32355216c334351cdb3f6c71bb"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_19.csv",
+    "total_bytes": 139123264,
+    "first": 104293296,
+    "last": 104358831,
+    "sha256": "0b11baaeac00d2e582abd775352581995bf1e886661237833733ef1251ef06cd"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_19.csv",
+    "total_bytes": 139123264,
+    "first": 121675512,
+    "last": 121741047,
+    "sha256": "e37ba5ea1ed1ba121f79156d02bb4f497f541517b00bc27503fe8e3f1668d80f"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_20.csv",
+    "total_bytes": 139134101,
+    "first": 0,
+    "last": 65535,
+    "sha256": "baf0bfc5e3611af278a4d94c870e6f86a42615ac61e22c981ba99f3fe08bd3c5"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_20.csv",
+    "total_bytes": 139134101,
+    "first": 17383570,
+    "last": 17449105,
+    "sha256": "a351ae65a04ef1889fef321dee82277f685e5a990fe707362e3d8bc47902c4b7"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_20.csv",
+    "total_bytes": 139134101,
+    "first": 34767141,
+    "last": 34832676,
+    "sha256": "10a2c3b8272c9edc7f16c03944580cbf1d63f8f86bd51d61eab1c68c9ef40feb"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_20.csv",
+    "total_bytes": 139134101,
+    "first": 52150711,
+    "last": 52216246,
+    "sha256": "08ff3b51044a36c10d346710c670321b137a944b461a73d9d98725b8166b5c20"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_20.csv",
+    "total_bytes": 139134101,
+    "first": 69534282,
+    "last": 69599817,
+    "sha256": "5167706dbf4406d8b5ff29ffff9d770020074a6e67255edab4395ce1782e785e"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_20.csv",
+    "total_bytes": 139134101,
+    "first": 86917853,
+    "last": 86983388,
+    "sha256": "c04a561afc82eeab98def4ad0f029cfd2796e12e129d741b2b544318b572f6f7"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_20.csv",
+    "total_bytes": 139134101,
+    "first": 104301423,
+    "last": 104366958,
+    "sha256": "f6ef7d06e79ae8d77b20807e3088221e2d6e476798a45d00b1b4884f20cc3dbe"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_20.csv",
+    "total_bytes": 139134101,
+    "first": 121684994,
+    "last": 121750529,
+    "sha256": "a122b552178a9205e9f49266bd59ce02eb21749e45ee0e1561cd97b287fbcda0"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_21.csv",
+    "total_bytes": 139346030,
+    "first": 0,
+    "last": 65535,
+    "sha256": "60f58090b6996053c010ef82ee000f00e99e49f4b08759585250ae127d7ce46f"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_21.csv",
+    "total_bytes": 139346030,
+    "first": 17410061,
+    "last": 17475596,
+    "sha256": "222b5ee084af6362fb4595afa411c642cf058e76e68213e5058b4afcc286c39f"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_21.csv",
+    "total_bytes": 139346030,
+    "first": 34820123,
+    "last": 34885658,
+    "sha256": "1d1f023bd46bc722009d75ae3eb59e87b0f7aafe697c0711ebd06070bfe342bf"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_21.csv",
+    "total_bytes": 139346030,
+    "first": 52230185,
+    "last": 52295720,
+    "sha256": "f241fe6f031f46700cba29a387007686f628d038ce49e9908d125bc33a719c2b"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_21.csv",
+    "total_bytes": 139346030,
+    "first": 69640247,
+    "last": 69705782,
+    "sha256": "72524be62cad78fd8e68d49752a8fa043a9216d6e50a67fdc73930c47ab99638"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_21.csv",
+    "total_bytes": 139346030,
+    "first": 87050308,
+    "last": 87115843,
+    "sha256": "d6b4825f1dadf9f4e1b18c3889f1d02988f3ae18790db5d1ef77d61d779d52de"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_21.csv",
+    "total_bytes": 139346030,
+    "first": 104460370,
+    "last": 104525905,
+    "sha256": "0a7924d36d65e6b30bbde109e0516fe2aa529928a9eabdec804b6d39f6988201"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_21.csv",
+    "total_bytes": 139346030,
+    "first": 121870432,
+    "last": 121935967,
+    "sha256": "f5af7f913d95918b18bc99bd582238f7996f9fe8fe269cc1fa0697e21e0b8c38"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_22.csv",
+    "total_bytes": 137952276,
+    "first": 0,
+    "last": 65535,
+    "sha256": "c104dbb7742e3364b80ce26ce0cfbeaa63e08d724069f0eeb5bb0b4f3bba8368"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_22.csv",
+    "total_bytes": 137952276,
+    "first": 17235842,
+    "last": 17301377,
+    "sha256": "413a811c6810a604038f80d136e9deefaf4745f518c91da9f0972cf8effb3b31"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_22.csv",
+    "total_bytes": 137952276,
+    "first": 34471685,
+    "last": 34537220,
+    "sha256": "5fc51087231f55b171dbf8c9387a55da48760dc33cfb12cc15b2658169a77e2a"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_22.csv",
+    "total_bytes": 137952276,
+    "first": 51707527,
+    "last": 51773062,
+    "sha256": "2d6a274b11aa2a6400a5b6cb9fc5651d69000bbb902b35feae730716edf0d123"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_22.csv",
+    "total_bytes": 137952276,
+    "first": 68943370,
+    "last": 69008905,
+    "sha256": "a3a32ce1bb82246467b4e4e6e170751559ec76f007715beba4ff30cc49de954b"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_22.csv",
+    "total_bytes": 137952276,
+    "first": 86179212,
+    "last": 86244747,
+    "sha256": "f2046d4651ad1521e54ddd0bd12284687f8ba399420f3222b3ef94a4bca36a18"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_22.csv",
+    "total_bytes": 137952276,
+    "first": 103415055,
+    "last": 103480590,
+    "sha256": "2afc2c14452f9711747a0e800b8c5bf5d824202b23abc2d0e2c7ea88736a31e5"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_22.csv",
+    "total_bytes": 137952276,
+    "first": 120650897,
+    "last": 120716432,
+    "sha256": "00d683a8a1060e93d186700cc34e11ca058cbd9bb7b551533e851932c0f1d4a1"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_23.csv",
+    "total_bytes": 136668211,
+    "first": 0,
+    "last": 65535,
+    "sha256": "d3f13baca7b1ac1b66fe06f3860921ca27fa3a1a940f13af0855f2645145cbd7"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_23.csv",
+    "total_bytes": 136668211,
+    "first": 17075334,
+    "last": 17140869,
+    "sha256": "e1f930c30b1e232d458445f947af925149764fc344c87ff82448dc77ba68bfac"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_23.csv",
+    "total_bytes": 136668211,
+    "first": 34150668,
+    "last": 34216203,
+    "sha256": "69ca98318e487b45eb38052096e042b58da8f74ca1b8a5d7aea2eefff33812aa"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_23.csv",
+    "total_bytes": 136668211,
+    "first": 51226003,
+    "last": 51291538,
+    "sha256": "50b0652725a48b6c7b0262ddf5a314e92dcf4e70af11ca5019dc5b3133fb1aee"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_23.csv",
+    "total_bytes": 136668211,
+    "first": 68301337,
+    "last": 68366872,
+    "sha256": "3dfc68d2a8d12935a3f87ff6ac6a7ad78a587afbb240c6dae28bc9e35417b0f2"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_23.csv",
+    "total_bytes": 136668211,
+    "first": 85376671,
+    "last": 85442206,
+    "sha256": "be0d0e063b2ca833eee901dd1eaace139e8987fbdfdd9daf9a7eb4a8c0d10db3"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_23.csv",
+    "total_bytes": 136668211,
+    "first": 102452006,
+    "last": 102517541,
+    "sha256": "e4745a584cdf0db7263dd5b9706ac6a79c68ac4c580da361f3b0636167efeef6"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_23.csv",
+    "total_bytes": 136668211,
+    "first": 119527340,
+    "last": 119592875,
+    "sha256": "24405088e04cc68f14e3e0e42196ec4d198d2b9208aabdc8e68f701a13396cf6"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_24.csv",
+    "total_bytes": 136625025,
+    "first": 0,
+    "last": 65535,
+    "sha256": "2a39a1dd269bef41d13a91e957a215136ce58095d898a4874aed764e2e0e0297"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_24.csv",
+    "total_bytes": 136625025,
+    "first": 17069936,
+    "last": 17135471,
+    "sha256": "5b2c921f2ce209352890edd66fca1627252ae414d0bff7f67ae46517f0af6576"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_24.csv",
+    "total_bytes": 136625025,
+    "first": 34139872,
+    "last": 34205407,
+    "sha256": "d922c65cf23d7e5cb6cbe4a8ad5681d673abfcb7e65309fd1f9ca5bc794f5a7f"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_24.csv",
+    "total_bytes": 136625025,
+    "first": 51209808,
+    "last": 51275343,
+    "sha256": "3960830fa42f9f5b3828253653ddb696df07832b6987b933c84f98917b05c56d"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_24.csv",
+    "total_bytes": 136625025,
+    "first": 68279744,
+    "last": 68345279,
+    "sha256": "eeb45f46961e8f1d0bcc652d852c5fe26349855e03190b411c14cc9c4cae46c0"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_24.csv",
+    "total_bytes": 136625025,
+    "first": 85349680,
+    "last": 85415215,
+    "sha256": "8115292a3ad46190422e9bc5b49ab248a13376e84b0eaa0ca12eec3b15ffa3b9"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_24.csv",
+    "total_bytes": 136625025,
+    "first": 102419616,
+    "last": 102485151,
+    "sha256": "b65c77c7f32d153d8e1d82af06780e3436d80c6ab191e570aea03be07633a3f3"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_24.csv",
+    "total_bytes": 136625025,
+    "first": 119489552,
+    "last": 119555087,
+    "sha256": "21e245747551b113e668ee398f622ae9f7629957f0ebf42943aae34ac7e1adbb"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_25.csv",
+    "total_bytes": 136639785,
+    "first": 0,
+    "last": 65535,
+    "sha256": "40e96890702bdd9f689315487d2689e8b3a25ebbcec2956d22e0dec1ffb8bebe"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_25.csv",
+    "total_bytes": 136639785,
+    "first": 17071781,
+    "last": 17137316,
+    "sha256": "06865b16bf5aafb21277b5a21b786a62d6fc82859c80884baf380413683ff2d6"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_25.csv",
+    "total_bytes": 136639785,
+    "first": 34143562,
+    "last": 34209097,
+    "sha256": "88559686673c249450bbff574977951e81ee11ff6212c930125b856d3aa3a9e6"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_25.csv",
+    "total_bytes": 136639785,
+    "first": 51215343,
+    "last": 51280878,
+    "sha256": "53befef6f509bf205dd63ff6518398a1e899db525a914fc9cc3b8cf7f36ee09d"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_25.csv",
+    "total_bytes": 136639785,
+    "first": 68287124,
+    "last": 68352659,
+    "sha256": "72f3a420608c6fb7630bdf06fb9f1fc31c4ca2e04a5d76ed10acbcbc18f00eee"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_25.csv",
+    "total_bytes": 136639785,
+    "first": 85358905,
+    "last": 85424440,
+    "sha256": "9a2fb3049aff76c39efa4220d7e0f8c7ea2056420795b70b08d0372024b5d437"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_25.csv",
+    "total_bytes": 136639785,
+    "first": 102430686,
+    "last": 102496221,
+    "sha256": "92728979f249f69bb95c155d24f08d9fdd5e28a68e43f9b35d06bc6031ea4334"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_25.csv",
+    "total_bytes": 136639785,
+    "first": 119502467,
+    "last": 119568002,
+    "sha256": "e4c2a03cfdb2545d73da203f847458ec657510394b356bc0c8eb80ba6efde754"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_26.csv",
+    "total_bytes": 136686293,
+    "first": 0,
+    "last": 65535,
+    "sha256": "74d3bee8a435ff7834ed9872d43f5bcffa1b7d563fdd7b8b8e50b0c3d84496c5"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_26.csv",
+    "total_bytes": 136686293,
+    "first": 17077594,
+    "last": 17143129,
+    "sha256": "011f314d057412aadf998cc48fcfe08cf46d631a9c11c72acb2d02256aa66468"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_26.csv",
+    "total_bytes": 136686293,
+    "first": 34155189,
+    "last": 34220724,
+    "sha256": "85d5ff59344d622b88edf6bccb763ef7dcf29e0cde8ebad6678d8661b4fe38be"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_26.csv",
+    "total_bytes": 136686293,
+    "first": 51232783,
+    "last": 51298318,
+    "sha256": "04ca4a1d33dffdfb61f6c0202d91946f52d0b7d841350f0f099b950d15dd7d29"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_26.csv",
+    "total_bytes": 136686293,
+    "first": 68310378,
+    "last": 68375913,
+    "sha256": "faa479208f984af25e71375412b0d4ff2c819cf2d43323b514d67c907bf98f64"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_26.csv",
+    "total_bytes": 136686293,
+    "first": 85387973,
+    "last": 85453508,
+    "sha256": "bc93b8ddaeb495bd533cf1f7b99c2ba09ee7176359812d5105b7b468daa159b9"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_26.csv",
+    "total_bytes": 136686293,
+    "first": 102465567,
+    "last": 102531102,
+    "sha256": "ab6d9a8029fffc00ee836974d4b2a63fb76d9b6a08feadf04fb4a1a9027d15f0"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_26.csv",
+    "total_bytes": 136686293,
+    "first": 119543162,
+    "last": 119608697,
+    "sha256": "ae8e5f850a72f0e0730468de84e011d2e2c308b569d73c86dad6b27630085faa"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_27.csv",
+    "total_bytes": 139472522,
+    "first": 0,
+    "last": 65535,
+    "sha256": "24c2eeec9ecb7881812b6e43b03872ceec103af019d61378650948282ea00588"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_27.csv",
+    "total_bytes": 139472522,
+    "first": 17425873,
+    "last": 17491408,
+    "sha256": "a73c9fcc35d289ca03f453645597c503cca112fb1deff943dcec670fd441fd52"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_27.csv",
+    "total_bytes": 139472522,
+    "first": 34851746,
+    "last": 34917281,
+    "sha256": "2d6633612a41c4cd40468fce2a4244913ac97eb11aa1d0eac0f1195633e6367f"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_27.csv",
+    "total_bytes": 139472522,
+    "first": 52277619,
+    "last": 52343154,
+    "sha256": "165bc9d446236842fa4efcb2e2f36ff8cb73a953cfae9cf9b7bed54f32f96b6b"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_27.csv",
+    "total_bytes": 139472522,
+    "first": 69703493,
+    "last": 69769028,
+    "sha256": "2d5142e4b37c51e24ea9821205bc8b886f85b039587c78dc664f895705cd1d04"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_27.csv",
+    "total_bytes": 139472522,
+    "first": 87129366,
+    "last": 87194901,
+    "sha256": "1e6be28aeca59d68903c403aa4a50a0305565701bdb517cac1c30fe6185f6a4a"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_27.csv",
+    "total_bytes": 139472522,
+    "first": 104555239,
+    "last": 104620774,
+    "sha256": "e4ecd14b331f0591bfef681cd8ab3fdc114fb03ac45911b5eccf102c91775ef5"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_27.csv",
+    "total_bytes": 139472522,
+    "first": 121981112,
+    "last": 122046647,
+    "sha256": "f2c2b0885ba969be12828cea067a5686d0be90e59ef2fadf9423d3bf18f8e821"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_28.csv",
+    "total_bytes": 139452521,
+    "first": 0,
+    "last": 65535,
+    "sha256": "ef4297e3800aa4b8ed7a5f497d1ce23dc60b0b5d52178927460d502191eacfaa"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_28.csv",
+    "total_bytes": 139452521,
+    "first": 17423373,
+    "last": 17488908,
+    "sha256": "d9f43ff5353ca5423c6f7756a06b128cef5f1532b27dfb5e40196da70d9deeca"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_28.csv",
+    "total_bytes": 139452521,
+    "first": 34846746,
+    "last": 34912281,
+    "sha256": "48a2d6608a95a0c6931b78d2ea85b6708076fda59935e9d0affcce87a78a006d"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_28.csv",
+    "total_bytes": 139452521,
+    "first": 52270119,
+    "last": 52335654,
+    "sha256": "a8565799ad9b3325b4ae8c413a35fe3ad97f1398bd9ccd3a8e286ea1b8578cc8"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_28.csv",
+    "total_bytes": 139452521,
+    "first": 69693492,
+    "last": 69759027,
+    "sha256": "58daa920b318a3668894748707bc08b879d249b60ed1063b5eb88adcd08b82b6"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_28.csv",
+    "total_bytes": 139452521,
+    "first": 87116865,
+    "last": 87182400,
+    "sha256": "862a589e38d8c4437df67f9718352621a6c1815cbad7457398a8ec926e40d6c6"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_28.csv",
+    "total_bytes": 139452521,
+    "first": 104540238,
+    "last": 104605773,
+    "sha256": "10e8dde184fcdb348452a447dc5f1d70ae5d60deb9b3a17673a630d548f55c68"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_28.csv",
+    "total_bytes": 139452521,
+    "first": 121963611,
+    "last": 122029146,
+    "sha256": "7e2c4b0c97c0d4b659f2f3aaaf063fbc68bfc43a5148b9a26b5926ac861b73b9"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_29.csv",
+    "total_bytes": 139531916,
+    "first": 0,
+    "last": 65535,
+    "sha256": "68e52ed192ffcf0dc3b4d9b966f79255021937fcea006a4d448374e36ae27d74"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_29.csv",
+    "total_bytes": 139531916,
+    "first": 17433297,
+    "last": 17498832,
+    "sha256": "519420e043d95192a971736012f41fffc382045c67a073cb338c6413a4b165d3"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_29.csv",
+    "total_bytes": 139531916,
+    "first": 34866595,
+    "last": 34932130,
+    "sha256": "3d0463b4060e6e383757b3dbdc9bbba128fa668168f28fed85c78b17035d1f98"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_29.csv",
+    "total_bytes": 139531916,
+    "first": 52299892,
+    "last": 52365427,
+    "sha256": "a42be5f6d7fc7db8d4577fd048f389c3b5d7382faa8e8aea68946aeb0ed4025b"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_29.csv",
+    "total_bytes": 139531916,
+    "first": 69733190,
+    "last": 69798725,
+    "sha256": "73126c4e4e83c0832c388005f47edd3f4d0e32243b6fd81fb51caf08ac7c857a"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_29.csv",
+    "total_bytes": 139531916,
+    "first": 87166487,
+    "last": 87232022,
+    "sha256": "b4ca6c4621febb7c68723b84a1f2cd51f0b5f3d396bb4ba42a503ff36fb85079"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_29.csv",
+    "total_bytes": 139531916,
+    "first": 104599785,
+    "last": 104665320,
+    "sha256": "130457e44b195be6a445b50a4a3e6abb772912423341b40a462b8d8142a59709"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_29.csv",
+    "total_bytes": 139531916,
+    "first": 122033082,
+    "last": 122098617,
+    "sha256": "785a672d7291a89d656a73e47ea525ec704bc61bb1da254e2fe5a605a214a645"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_30.csv",
+    "total_bytes": 138305285,
+    "first": 0,
+    "last": 65535,
+    "sha256": "090c8afba573b6a1ea9aef7e89cf6f2192f8c01ca0e24a2ae60735629db71015"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_30.csv",
+    "total_bytes": 138305285,
+    "first": 17279968,
+    "last": 17345503,
+    "sha256": "28c21c2d6c9ec9d077e2d43fc6726c03e3a43c7e8fc17fddd3d71a7d7aaf53af"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_30.csv",
+    "total_bytes": 138305285,
+    "first": 34559937,
+    "last": 34625472,
+    "sha256": "e18b8cd04e4dd3b9738dfe3bf12c8798181b57ba083052598dbe872a080fb9f1"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_30.csv",
+    "total_bytes": 138305285,
+    "first": 51839905,
+    "last": 51905440,
+    "sha256": "fadc37319fe9e9e21af62027895a662dbd53798bc10795cb46cb4dadecca947d"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_30.csv",
+    "total_bytes": 138305285,
+    "first": 69119874,
+    "last": 69185409,
+    "sha256": "60821470c9dda7c7b9375b4fa05f36cf91db0fe6d8903b2d18cfde92f5736fe1"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_30.csv",
+    "total_bytes": 138305285,
+    "first": 86399843,
+    "last": 86465378,
+    "sha256": "f4b23c39b34778c06dcda4b11562a96642d22fac88081a59378cfc495c45767b"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_30.csv",
+    "total_bytes": 138305285,
+    "first": 103679811,
+    "last": 103745346,
+    "sha256": "0e67aaa594f354f16b02fc9f05ba848adf1ddd8cb7382649847843c190d03a2f"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_30.csv",
+    "total_bytes": 138305285,
+    "first": 120959780,
+    "last": 121025315,
+    "sha256": "b6495a7ed412ba32b3e3cf835880ae0003916794242c1b303a265fee072fa2e0"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_31.csv",
+    "total_bytes": 110954929,
+    "first": 0,
+    "last": 65535,
+    "sha256": "9867b1382a1eb5255193446f5970dca34418433b012809752a64868d3725b219"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_31.csv",
+    "total_bytes": 110954929,
+    "first": 13861174,
+    "last": 13926709,
+    "sha256": "0f45aa906ed354c32ec377e057db00b369437ef8840d0b1b083d45f51de47e2c"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_31.csv",
+    "total_bytes": 110954929,
+    "first": 27722348,
+    "last": 27787883,
+    "sha256": "d82cee15d00f325ec06aef1387a1557d65d0ebafac88045004d61f549e4fdd85"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_31.csv",
+    "total_bytes": 110954929,
+    "first": 41583522,
+    "last": 41649057,
+    "sha256": "1a2b1d8d12aba042456288ae07d45162ed660a2d1916d8ffa2f136523d807beb"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_31.csv",
+    "total_bytes": 110954929,
+    "first": 55444696,
+    "last": 55510231,
+    "sha256": "0a439b8584ba38fa8872303cfe08b6f35033220edd43341032f08c9095ed94ab"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_31.csv",
+    "total_bytes": 110954929,
+    "first": 69305870,
+    "last": 69371405,
+    "sha256": "35e785235d2a0cbce32dca99c9e065ccacd18b3b4e41de5a6c08103f23ea2e8b"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_31.csv",
+    "total_bytes": 110954929,
+    "first": 83167044,
+    "last": 83232579,
+    "sha256": "fd040230370e82b35f23c98c4e1c0c221585a31389224a86450fe7c477b5d962"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_31.csv",
+    "total_bytes": 110954929,
+    "first": 97028218,
+    "last": 97093753,
+    "sha256": "49c20d000c3fc372b6cde8a9a64bbd3b2278f2c1a0858dd3d89f94a8a2b96fae"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_32.csv",
+    "total_bytes": 110517865,
+    "first": 0,
+    "last": 65535,
+    "sha256": "5f295f344a4dbd4a47affb8301ed840c7951f0835dded6a74409b425dfc2ce42"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_32.csv",
+    "total_bytes": 110517865,
+    "first": 13806541,
+    "last": 13872076,
+    "sha256": "f6a5ee8ef674109c20a44f85140676c2ddb8f9f31a3264f791067bd57ee1d24e"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_32.csv",
+    "total_bytes": 110517865,
+    "first": 27613082,
+    "last": 27678617,
+    "sha256": "63bd12480656ef665ea122a04282970a5525ac46d07c020e01e6a8fdc8627afe"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_32.csv",
+    "total_bytes": 110517865,
+    "first": 41419623,
+    "last": 41485158,
+    "sha256": "ae33b1df706b6db282737e0022839b8c1c0dcba18b4015e6392b13714e3cf4a7"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_32.csv",
+    "total_bytes": 110517865,
+    "first": 55226164,
+    "last": 55291699,
+    "sha256": "9118851a076ab00c2c0b2a5679bfbab463d026a6b58a77580cca594b24767f52"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_32.csv",
+    "total_bytes": 110517865,
+    "first": 69032705,
+    "last": 69098240,
+    "sha256": "963bd6572c09d3ffeb80fe534af8be033a000b73ea33dd402ab6be6b5c2f6e71"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_32.csv",
+    "total_bytes": 110517865,
+    "first": 82839246,
+    "last": 82904781,
+    "sha256": "0598c68bd482ee0d450c41da79246dab2282da5ba6dd2863fe8fbf264439d89d"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_32.csv",
+    "total_bytes": 110517865,
+    "first": 96645787,
+    "last": 96711322,
+    "sha256": "6bef0eef100c9f1385ccea9e2f4ae5e16e32d6751f51feb0f707decf41de2313"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_33.csv",
+    "total_bytes": 82981618,
+    "first": 0,
+    "last": 65535,
+    "sha256": "102eadf202f23f936a40a7be02f122f8e4c973d6b5f23d01ad12958a9038156a"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_33.csv",
+    "total_bytes": 82981618,
+    "first": 10364510,
+    "last": 10430045,
+    "sha256": "77fc23c835a78917385c6d3985ffdca5df8a9508f74f41c0a682c1a5db907934"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_33.csv",
+    "total_bytes": 82981618,
+    "first": 20729020,
+    "last": 20794555,
+    "sha256": "07f0626a62995dd5c7b9bd5ab1884375f3e156c0c2ddab363c35eb5b38f4ee30"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_33.csv",
+    "total_bytes": 82981618,
+    "first": 31093530,
+    "last": 31159065,
+    "sha256": "f243cf45709ff3c7ac530fd7e6214b9f70de763d1505ae4e0ccdf586eb2039e7"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_33.csv",
+    "total_bytes": 82981618,
+    "first": 41458041,
+    "last": 41523576,
+    "sha256": "44d001a3a57aed48745c5d8b98a509d6c08e25ba9d9bd074ac747a59d7bcdeb8"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_33.csv",
+    "total_bytes": 82981618,
+    "first": 51822551,
+    "last": 51888086,
+    "sha256": "59d99e51bbd7ca9def634b4274088b85bf4dd42f5dcf0d3cc8547a35cb5e64f7"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_33.csv",
+    "total_bytes": 82981618,
+    "first": 62187061,
+    "last": 62252596,
+    "sha256": "3fa9774e0af1cfa0d4641574384c7af4661f145a8d3963bed44d7fec9e386e6a"
+  },
+  {
+    "key": "dataset/v1/data/csv/symbol_sentiments/symbol_sentiments_33.csv",
+    "total_bytes": 82981618,
+    "first": 72551571,
+    "last": 72617106,
+    "sha256": "fe3f4cb436994026ad92f7b638eb20b583e3dbfb1b836040aedc0036c0fe0d5c"
+  }
+]

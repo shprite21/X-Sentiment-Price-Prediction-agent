@@ -1,0 +1,72 @@
+{
+  "checked_on": "2026-11-17",
+  "timestamp_comparison": {
+    "recent_sample_rows": 200,
+    "matching_text_rows_in_original_prefix": 197,
+    "different_dates_for_matching_text": 197,
+    "exact_five_year_shifts": 197,
+    "date_examples_only": [
+      {
+        "recent_date": "2026-02-10 23:59:04",
+        "original_date": "2021-02-10 23:59:04"
+      },
+      {
+        "recent_date": "2026-02-10 23:54:48",
+        "original_date": "2021-02-10 23:54:48"
+      },
+      {
+        "recent_date": "2026-02-10 23:54:33",
+        "original_date": "2021-02-10 23:54:33"
+      },
+      {
+        "recent_date": "2026-02-10 23:54:06",
+        "original_date": "2021-02-10 23:54:06"
+      },
+      {
+        "recent_date": "2026-02-10 23:53:30",
+        "original_date": "2021-02-10 23:53:30"
+      }
+    ],
+    "decision": "Exclude the 2025-2026 repack from time-aligned evaluation pending timestamp provenance verification"
+  },
+  "compared_sources": [
+    "https://www.kaggle.com/datasets/pokeash/bitcoin-tweets-dataset-20252026",
+    "https://www.kaggle.com/datasets/kaushiksuresh147/bitcoin-tweets"
+  ],
+  "method": "Download bounded file prefixes; compare exact tweet text and original date fields. Non-random prefix audit, not a whole-dataset authenticity claim.",
+  "prefix_sha256": {
+    "recent_prefix.bin": "fc3ddbffe49458aaec078a676c3cf3cc1d8e2702348203dec5354e0b4b029833",
+    "bitcoin_main_prefix.bin": "723f03878885ca45c00850ef568539896d87d8c9fc6a3b28291cffb25cc93f88"
+  },
+  "hf_source": "https://huggingface.co/datasets/StephanAkkerman/crypto-stock-tweets",
+  "hf_columns": [
+    "text",
+    "url"
+  ],
+  "hf_decision": "No timestamp column; unsuitable for a time-aligned price backtest without returning to source data",
+  "chosen_source": "kaushiksuresh147/bitcoin-tweets version 54",
+  "historical_backtest": {
+    "source": "kaggle:kaushiksuresh147/bitcoin-tweets:v54",
+    "source_url": "https://www.kaggle.com/datasets/kaushiksuresh147/bitcoin-tweets",
+    "version": 54,
+    "archive": "bitcoin-tweets-v54.zip",
+    "archive_sha256": "2ce71e16fd28191b18e0ead4430955868c1fba22d341f54190ea4a9255314fc3",
+    "license": "CC0: Public Domain (provider metadata)",
+    "start": "2021-02-06T00:00:00+00:00",
+    "end": "2021-08-05T00:00:00+00:00",
+    "sample_cap_per_hour": 20,
+    "seed": 42,
+    "sampling": "Smallest SHA-256 ranks of timestamp+text per UTC hour; no target or sentiment selection",
+    "selected_posts": 24834,
+    "hours_with_eligible_posts": 1244,
+    "source_min_date": "2021-02-05T10:52:04+00:00",
+    "source_max_date": "2023-01-09T23:59:54+00:00",
+    "rows_scanned": 4693091,
+    "invalid_rows": 3803,
+    "outside_window": 3968910,
+    "retweets_excluded": 0,
+    "eligible_in_window": 720378,
+    "counts_warning": "Model post volume is capped sampled volume; full eligible counts are provenance only",
+    "language_warning": "Source has no language field; English sentiment scorer applied with multilingual limitation"
+  }
+}

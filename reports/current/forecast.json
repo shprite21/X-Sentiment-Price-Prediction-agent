@@ -1,0 +1,123 @@
+{
+  "experiment": "recent_price_only_control",
+  "asset": "BTC-USD",
+  "selected_model": "persistence",
+  "model_version": "bdfd5d80db1db54a6dcd8a6b1d9b3acbe1db4b75e13e118c7b31ca832347da21",
+  "training_timestamp": "2026-11-17T08:25:10.645006+00:00",
+  "data_cutoff": "2026-11-17T08:00:00+00:00",
+  "feature_cutoff": "2026-11-17T08:00:00+00:00",
+  "prediction_timestamp": "2026-11-17T08:25:10.645006+00:00",
+  "training_last_origin": "2026-11-17T03:00:00+00:00",
+  "selection_log_rmse": {
+    "persistence": 0.006645540587801767,
+    "price_only": 0.006714735140944912
+  },
+  "forecasts": [
+    {
+      "horizon": 0,
+      "time": "2026-11-17T08:00:00+00:00",
+      "price": 64682.5,
+      "kind": "observed",
+      "log_return": 0.0,
+      "simple_return": 0.0
+    },
+    {
+      "horizon": 1,
+      "time": "2026-11-17T09:00:00+00:00",
+      "price": 64682.5,
+      "kind": "forecast",
+      "log_return": 0.0,
+      "simple_return": 0.0
+    },
+    {
+      "horizon": 2,
+      "time": "2026-11-17T10:00:00+00:00",
+      "price": 64682.5,
+      "kind": "forecast",
+      "log_return": 0.0,
+      "simple_return": 0.0
+    },
+    {
+      "horizon": 3,
+      "time": "2026-11-17T11:00:00+00:00",
+      "price": 64682.5,
+      "kind": "forecast",
+      "log_return": 0.0,
+      "simple_return": 0.0
+    },
+    {
+      "horizon": 4,
+      "time": "2026-11-17T12:00:00+00:00",
+      "price": 64682.5,
+      "kind": "forecast",
+      "log_return": 0.0,
+      "simple_return": 0.0
+    },
+    {
+      "horizon": 5,
+      "time": "2026-11-17T13:00:00+00:00",
+      "price": 64682.5,
+      "kind": "forecast",
+      "log_return": 0.0,
+      "simple_return": 0.0
+    }
+  ],
+  "price_source": [
+    "yfinance"
+  ],
+  "input_sha256": "81354acdc7624f30cc785f17faaa25992d6cc4012bf5ee6f1eea39d88657bedf",
+  "model_config": {
+    "asset": "BTC-USD",
+    "company": "Bitcoin",
+    "ticker": "BTC",
+    "keywords": [
+      "Bitcoin",
+      "BTC"
+    ],
+    "exchange": "24/7",
+    "timezone": "UTC",
+    "interval": "1h",
+    "days": 180,
+    "start": null,
+    "end": null,
+    "horizons": 5,
+    "min_train": null,
+    "test_size": 336,
+    "holdout": null,
+    "ridge_alpha": 100.0,
+    "cost_bps": 10.0,
+    "slippage_bps": 2.0,
+    "seed": 42,
+    "sentiment_engine": "finbert",
+    "finbert_path": "data/models/finbert",
+    "availability": "publication",
+    "platform": "X",
+    "embargo": 0
+  },
+  "features": [
+    "return_1h",
+    "return_2h",
+    "return_3h",
+    "return_5h",
+    "return_6h",
+    "return_12h",
+    "return_24h",
+    "lagged_return",
+    "acceleration",
+    "bar_range",
+    "bar_body",
+    "volatility_6h",
+    "trend_6h",
+    "high_6",
+    "low_6",
+    "volatility_24h",
+    "trend_24h",
+    "high_24",
+    "low_24",
+    "volatility_72h",
+    "trend_72h",
+    "high_72",
+    "low_72"
+  ],
+  "x_coverage": "unavailable"
+}

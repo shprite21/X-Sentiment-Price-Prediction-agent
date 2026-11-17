@@ -1,0 +1,8 @@
+.venv
+.env
+.git
+data
+runs
+deliverables
+historical_source.*
+__pycache__

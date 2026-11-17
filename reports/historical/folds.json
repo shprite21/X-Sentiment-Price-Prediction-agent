@@ -1,0 +1,80 @@
+[
+  {
+    "fold": 1,
+    "phase": "walk_forward",
+    "train_rows": 2110,
+    "test_rows": 336,
+    "train_start": "2021-02-09T01:00:00+00:00",
+    "train_end": "2021-05-07T22:00:00+00:00",
+    "last_train_label": "2021-05-08T03:00:00+00:00",
+    "test_start": "2021-05-08T04:00:00+00:00",
+    "test_end": "2021-05-22T03:00:00+00:00",
+    "last_test_label": "2021-05-22T08:00:00+00:00",
+    "threshold": 0.004280887472505769
+  },
+  {
+    "fold": 2,
+    "phase": "walk_forward",
+    "train_rows": 2446,
+    "test_rows": 336,
+    "train_start": "2021-02-09T01:00:00+00:00",
+    "train_end": "2021-05-21T22:00:00+00:00",
+    "last_train_label": "2021-05-22T03:00:00+00:00",
+    "test_start": "2021-05-22T04:00:00+00:00",
+    "test_end": "2021-06-05T03:00:00+00:00",
+    "last_test_label": "2021-06-05T08:00:00+00:00",
+    "threshold": 0.004596770387653627
+  },
+  {
+    "fold": 3,
+    "phase": "walk_forward",
+    "train_rows": 2782,
+    "test_rows": 336,
+    "train_start": "2021-02-09T01:00:00+00:00",
+    "train_end": "2021-06-04T22:00:00+00:00",
+    "last_train_label": "2021-06-05T03:00:00+00:00",
+    "test_start": "2021-06-05T04:00:00+00:00",
+    "test_end": "2021-06-19T03:00:00+00:00",
+    "last_test_label": "2021-06-19T08:00:00+00:00",
+    "threshold": 0.00479473561934431
+  },
+  {
+    "fold": 4,
+    "phase": "walk_forward",
+    "train_rows": 3118,
+    "test_rows": 336,
+    "train_start": "2021-02-09T01:00:00+00:00",
+    "train_end": "2021-06-18T22:00:00+00:00",
+    "last_train_label": "2021-06-19T03:00:00+00:00",
+    "test_start": "2021-06-19T04:00:00+00:00",
+    "test_end": "2021-07-03T03:00:00+00:00",
+    "last_test_label": "2021-07-03T08:00:00+00:00",
+    "threshold": 0.0047800051011528955
+  },
+  {
+    "fold": 5,
+    "phase": "walk_forward",
+    "train_rows": 3454,
+    "test_rows": 58,
+    "train_start": "2021-02-09T01:00:00+00:00",
+    "train_end": "2021-07-02T22:00:00+00:00",
+    "last_train_label": "2021-07-03T03:00:00+00:00",
+    "test_start": "2021-07-03T04:00:00+00:00",
+    "test_end": "2021-07-05T13:00:00+00:00",
+    "last_test_label": "2021-07-05T18:00:00+00:00",
+    "threshold": 0.004945562778532168
+  },
+  {
+    "fold": 6,
+    "phase": "holdout",
+    "train_rows": 3517,
+    "test_rows": 721,
+    "train_start": "2021-02-09T01:00:00+00:00",
+    "train_end": "2021-07-05T13:00:00+00:00",
+    "last_train_label": "2021-07-05T18:00:00+00:00",
+    "test_start": "2021-07-05T19:00:00+00:00",
+    "test_end": "2021-08-04T19:00:00+00:00",
+    "last_test_label": "2021-08-05T00:00:00+00:00",
+    "threshold": 0.004880427668531639
+  }
+]

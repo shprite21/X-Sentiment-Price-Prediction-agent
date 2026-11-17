@@ -1,0 +1,4 @@
+[research]
+platform = "StockTwits"
+interval = "1d"
+test_size = 10

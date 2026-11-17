@@ -1,0 +1,29 @@
+{
+  "recent_sample_rows": 200,
+  "matching_text_rows_in_original_prefix": 197,
+  "different_dates_for_matching_text": 197,
+  "exact_five_year_shifts": 197,
+  "date_examples_only": [
+    {
+      "recent_date": "2026-02-10 23:59:04",
+      "original_date": "2021-02-10 23:59:04"
+    },
+    {
+      "recent_date": "2026-02-10 23:54:48",
+      "original_date": "2021-02-10 23:54:48"
+    },
+    {
+      "recent_date": "2026-02-10 23:54:33",
+      "original_date": "2021-02-10 23:54:33"
+    },
+    {
+      "recent_date": "2026-02-10 23:54:06",
+      "original_date": "2021-02-10 23:54:06"
+    },
+    {
+      "recent_date": "2026-02-10 23:53:30",
+      "original_date": "2021-02-10 23:53:30"
+    }
+  ],
+  "decision": "Exclude the 2025-2026 repack from time-aligned evaluation pending timestamp provenance verification"
+}
