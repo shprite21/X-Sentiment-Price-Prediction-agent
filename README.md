@@ -20,7 +20,7 @@ Experiment B used **20,243 scored posts**, 4,320 actual hourly candles and 4,243
 
 The selected gradient-boosting long/cash rule made 27 development trades. After 10 bp per side, it returned **3.00%**, with annualized Sharpe **0.72**, Sortino **1.03** and maximum drawdown **−7.45%**. It made zero final-holdout trades. Holdout return and drawdown were zero, and both ratios were undefined.
 
-Experiment A requires recent Apify posts. Experiment C also requires defensible source continuity. Neither has a measured X result. The current price-only control used a separate recent Yahoo sample and independently selected its model. Experiment D used only StockTwits and daily Coinbase prices.
+Experiment A requires recent Apify posts. Experiment C also requires defensible source continuity. Neither has a measured X result. The current price-only control used a separate recent Yahoo sample and independently selected its model. One live Tavily search stored 10 articles, of which three dated headlines are cited in the outlook. Experiment D used only StockTwits and daily Coinbase prices.
 
 ## Install and verify offline
 

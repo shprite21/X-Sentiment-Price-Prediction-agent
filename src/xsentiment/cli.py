@@ -79,7 +79,7 @@ def main(argv=None):
     current = sub.add_parser(
         "current", help="Apply the selected historical specification at a recent cutoff"
     )
-    current.add_argument("--research", default="reports")
+    current.add_argument("--research", default="reports/historical")
     current.add_argument("--db", default="data/database/recent.sqlite")
     current.add_argument("--out", default="runs/current")
     args = parser.parse_args(argv)

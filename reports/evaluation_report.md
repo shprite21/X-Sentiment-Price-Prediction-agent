@@ -144,7 +144,7 @@ The manifest records the exact feature order, model parameters, input and softwa
 
 | Experiment | Evidence available | Finding |
 |---|---|---|
-| A · Recent X and price | 180 days of recent Yahoo prices; authenticated X/news collection pending | Current X sentiment and its incremental value are unmeasured. |
+| A · Recent X and price | 180 days of recent Yahoo prices. Current news providers: tavily. Authenticated X collection pending. | Current X sentiment and its incremental value are unmeasured. |
 | B · Historical X and price | FinBERT-scored Twitter sample and Coinbase hourly bars | Adding sentiment improved Ridge MAE at 1/5 development horizons and 0/5 holdout horizons. |
 | C · Historical and recent X | No validated recent X corpus overlapping the historical source transition | No pooled result or evidence of cross-period generalization. |
 | D · Supplementary StockTwits | 180 daily Coinbase bars and 2,140 aligned self-labelled posts | 103 labelled origins, 3 development folds, 17 holdout origins. Validation selected price_only. Adding StockTwits labels reduced holdout Ridge MAE at 0/5 horizons. |

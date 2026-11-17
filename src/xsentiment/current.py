@@ -25,6 +25,10 @@ def write_current(research: Path, store, out: Path):
     if not posts.empty and (posts.source == "apify").any():
         return run(store, out, cfg, experiment="A")
     out.mkdir(parents=True, exist_ok=True)
+    if prices.empty:
+        raise ValueError("Current outlook requires completed price bars")
+    stamps = pd.to_datetime(prices.time, utc=True, format="mixed")
+    prices = prices.loc[stamps > stamps.max() - pd.Timedelta(days=cfg.days)]
     f, pc, _, audit = build_features(prices, posts, cfg, price_only=True)
     predictions, folds = evaluate(f, pc, pc, cfg, names=("persistence", "price_only"))
     selected, scores = select_model(predictions)
@@ -96,12 +100,43 @@ def write_current(research: Path, store, out: Path):
         store.upsert(db.experiments, [dict(id=version, manifest=info)], con)
     news = store.frame("news")
     contexts = []
-    for row in news.itertuples():
-        d = pd.to_datetime(row.published_at, utc=True, errors="coerce")
-        if f.index[-1] - pd.Timedelta(days=7) <= d <= f.index[-1] and pd.Timestamp(
-            row.retrieved_at
-        ) <= pd.Timestamp(time):
-            contexts.append(f"- {d.date()} · {row.publisher}. [{row.title}]({row.url})")
+    cited = []
+    publishers = set()
+    terms = {term.casefold() for term in (cfg.company, cfg.ticker, *cfg.keywords) if term}
+    for row in news.sort_values("published_at", ascending=False).itertuples():
+        published = pd.to_datetime(row.published_at, utc=True, errors="coerce")
+        title = " ".join(str(row.title).split()).replace("[", "(").replace("]", ")")
+        if not any(term in title.casefold() for term in terms):
+            continue
+        if (
+            pd.Timestamp(time) - pd.Timedelta(days=7) <= published <= pd.Timestamp(time)
+            and pd.Timestamp(row.retrieved_at) <= pd.Timestamp(time)
+            and row.publisher not in publishers
+            and str(row.url).startswith(("https://", "http://"))
+        ):
+            publishers.add(row.publisher)
+            contexts.append(f"- {published.date()} · {row.publisher}. [{title}]({row.url})")
+            cited.append(
+                dict(
+                    provider=row.source,
+                    publisher=row.publisher,
+                    headline=title,
+                    url=row.url,
+                    published_at=row.published_at,
+                    retrieved_at=row.retrieved_at,
+                )
+            )
+            if len(cited) == 3:
+                break
+    news_audit = dict(
+        report_time=time,
+        providers=sorted(news.source.unique().tolist()),
+        articles_stored=len(news),
+        articles_cited=cited,
+        collection=store.metadata().get("news_collection"),
+        predictive_news_columns=[],
+    )
+    save_json(out / "news_context.json", news_audit)
     table = pd.DataFrame(projections)[["horizon", "kind", "price", "simple_return", "time"]]
     table.to_csv(out / "forecast.csv", index=False)
     last = metrics.query("phase=='holdout' and model==@selected and horizon==1").iloc[0]
@@ -113,7 +148,7 @@ def write_current(research: Path, store, out: Path):
         "support a current sentiment call.",
         f"**Price context.** The latest completed close was {f.close.iloc[-1]:,.2f}, "
         f"{f.close.iloc[-1] / f.close.iloc[-25] - 1:+.2%} over 24 bars. Source: {', '.join(info['price_source'])}.",
-        "**News context.**",
+        f"**News context at {time[:16].replace('T', ' ')} UTC.** These publisher headlines were retrieved separately from the forecast.",
         "\n".join(contexts[:5]) or "No contemporaneous Tavily/Exa articles were collected.",
         f"**Price-only forecast.** On {audit['price_rows']:,} recent bars, {selected} had the lower pooled "
         f"validation log-return RMSE among random walk and price-only Ridge. Five-bar purges separated "

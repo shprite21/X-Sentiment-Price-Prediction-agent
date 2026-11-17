@@ -1,3 +1,4 @@
+import json
 import tempfile
 import unittest
 from dataclasses import replace
@@ -9,6 +10,7 @@ import pandas as pd
 
 from xsentiment.calendar import bars, future_closes
 from xsentiment.config import Config, utc
+from xsentiment.current import write_current
 from xsentiment.demo import populate
 from xsentiment.features import build_features
 from xsentiment.ingest import import_posts, normalize_post
@@ -19,6 +21,46 @@ from xsentiment.storage import Store
 
 
 class IntegrityTests(unittest.TestCase):
+    def test_news_changes_current_outlook_without_changing_forecasts(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            cfg = Config(days=10, min_train=38, test_size=20, holdout=22)
+            (root / "manifest.json").write_text(json.dumps({"config": cfg.to_dict()}))
+            store = Store(root / "control.sqlite")
+            fixture = Store(root / "fixture.sqlite")
+            populate(fixture, cfg)
+            store.put("prices", fixture.frame("prices").to_dict("records"))
+            write_current(root, store, root / "before")
+            now = pd.Timestamp.now(tz="UTC")
+            article = dict(
+                url="https://example.org/a",
+                title="Bitcoin fixture article",
+                source="tavily",
+                publisher="example.org",
+                published_at=(now - pd.Timedelta(hours=1)).isoformat(),
+                retrieved_at=now.isoformat(),
+            )
+            store.put(
+                "news",
+                [
+                    article,
+                    {
+                        **article,
+                        "url": "https://future.example/b",
+                        "published_at": (now + pd.Timedelta(days=2)).isoformat(),
+                    },
+                ],
+            )
+            write_current(root, store, root / "after")
+            for file in ("forecast.csv", "predictions.csv", "forecast_metrics.csv"):
+                self.assertEqual(
+                    (root / "before" / file).read_bytes(), (root / "after" / file).read_bytes()
+                )
+            audit = json.loads((root / "after/news_context.json").read_text())
+            self.assertEqual(audit["articles_stored"], 2)
+            self.assertEqual([a["url"] for a in audit["articles_cited"]], [article["url"]])
+            self.assertIn(article["title"], (root / "after/sentiment_outlook.md").read_text())
+
     def test_fold_preprocessing_and_selection_isolation(self):
         idx = pd.date_range("2022-01-01", periods=155, freq="h", tz="UTC")
         signal = np.arange(len(idx), dtype=float)

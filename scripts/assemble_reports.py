@@ -14,6 +14,7 @@ def assemble(base=Path("reports")):
     hist = json.loads((historical / "manifest.json").read_text())
     stock = json.loads((supplementary / "manifest.json").read_text())
     recent = json.loads((current / "forecast.json").read_text())
+    news = json.loads((current / "news_context.json").read_text())
     text = (historical / "evaluation_report.md").read_text(encoding="utf-8")
     gains = pd.read_csv(historical / "incremental.csv")
     d_gains = pd.read_csv(supplementary / "incremental.csv")
@@ -28,7 +29,7 @@ def assemble(base=Path("reports")):
 
 | Experiment | Evidence available | Finding |
 |---|---|---|
-| A · Recent X and price | 180 days of recent Yahoo prices; authenticated X/news collection pending | Current X sentiment and its incremental value are unmeasured. |
+| A · Recent X and price | 180 days of recent Yahoo prices. Current news providers: {", ".join(news["providers"]) or "none"}. Authenticated X collection pending. | Current X sentiment and its incremental value are unmeasured. |
 | B · Historical X and price | FinBERT-scored Twitter sample and Coinbase hourly bars | Adding sentiment improved Ridge MAE at {wf_wins}/5 development horizons and {final_wins}/5 holdout horizons. |
 | C · Historical and recent X | No validated recent X corpus overlapping the historical source transition | No pooled result or evidence of cross-period generalization. |
 | D · Supplementary StockTwits | {d_data["price_rows"]} daily Coinbase bars and {d_data["unique_text_posts_in_window"]:,} aligned self-labelled posts | {d_data["labeled_observations"]} labelled origins, {len(d_folds) - 1} development folds, {d_hold} holdout origins. Validation selected {stock["selected_model"]}. Adding StockTwits labels reduced holdout Ridge MAE at {d_wins}/5 horizons. |
@@ -64,9 +65,10 @@ The independent recent price-only control selected {recent["selected_model"]} an
         apify_actor_default="apidojo~tweet-scraper",
         apify_template="config/apify_actor_input.example.json",
         apify_run_ids=[],
-        tavily_live=False,
-        exa_live=False,
-        providers=["Kaggle", "Coinbase", "Yahoo Finance", "NYU public S3"],
+        tavily_live="tavily" in news["providers"],
+        exa_live="exa" in news["providers"],
+        news_articles_stored=news["articles_stored"],
+        providers=["Kaggle", "Coinbase", "Yahoo Finance", "NYU public S3", *news["providers"]],
         experiments={
             "A": "recent X unavailable",
             "B": "executed",
