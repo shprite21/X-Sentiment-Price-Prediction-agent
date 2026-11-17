@@ -1,8 +1,8 @@
 # Submission checklist
 
-- Share the private GitHub repository with the evaluator using their confirmed GitHub account.
-- Provide the historical evaluation, the one-page current outlook and the dataset discovery report from the reports directory. Include the historical and supplementary experiment labels.
-- Configure account-issued APIFY_TOKEN and TAVILY_API_KEY locally, plus EXA_API_KEY if using Exa. The reviewed Actor ID is apidojo~tweet-scraper. Provide the Actor ID, template path, permitted spending cap and evaluation credentials directly to the evaluator through an agreed private secret-sharing channel.
-- Run the explicit live collection for Experiment A. Check the ingestion ledger, failed windows, cap hits and actual interval coverage. Test Experiment C only when both X source periods support a continuous experiment.
-- Provide the final run ID, data cutoff, forecast and manifest. Historical backtests and the recent price-only control measure different questions. Tavily news retrieval was verified. Recent authenticated X remains pending.
-- Rotate assessment credentials after the evaluation. No credentials or raw account data belong in version control.
+- Share the private GitHub repository with the evaluator's confirmed GitHub account.
+- Include the primary recent evaluation, one-page sentiment outlook, dataset-discovery report, figures and checksum manifest. The historical X, cross-period and supplementary StockTwits reports have separate links.
+- For offline assessment run the tests, synthetic demo and published feature replays. Review the five-bar purges, paired Ridge differences and held-out strategy results.
+- Provide the Actor ID `coregent~x-tweet-scraper`, `config/apify_coregent.json`, two recorded run IDs and the data cutoff from the reproducibility manifest. The two completed runs together reported USD 0.84.
+- Rotate the Apify and Tavily credentials shared during setup. If an evaluator needs live access, provide scoped credentials through an agreed private secret-sharing channel. The read-only restore requires access to the recorded Apify datasets while the provider retains them. Optional Exa live collection requires a separate Exa key.
+- Keep the private database, raw posts, user identifiers, model binaries and API credentials outside Git. Check access and licensing before redistributing original provider data.

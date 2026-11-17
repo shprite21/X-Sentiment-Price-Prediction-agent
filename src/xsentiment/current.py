@@ -12,6 +12,7 @@ from .config import Config
 from .features import build_features
 from .ingest import save_json
 from .model import evaluate, forecast, forecast_metrics, select_model
+from .news_context import select_news
 from .pipeline import digest, records, run
 from .report import markdown_table
 
@@ -98,43 +99,8 @@ def write_current(research: Path, store, out: Path):
             con,
         )
         store.upsert(db.experiments, [dict(id=version, manifest=info)], con)
-    news = store.frame("news")
-    contexts = []
-    cited = []
-    publishers = set()
-    terms = {term.casefold() for term in (cfg.company, cfg.ticker, *cfg.keywords) if term}
-    for row in news.sort_values("published_at", ascending=False).itertuples():
-        published = pd.to_datetime(row.published_at, utc=True, errors="coerce")
-        title = " ".join(str(row.title).split()).replace("[", "(").replace("]", ")")
-        if not any(term in title.casefold() for term in terms):
-            continue
-        if (
-            pd.Timestamp(time) - pd.Timedelta(days=7) <= published <= pd.Timestamp(time)
-            and pd.Timestamp(row.retrieved_at) <= pd.Timestamp(time)
-            and row.publisher not in publishers
-            and str(row.url).startswith(("https://", "http://"))
-        ):
-            publishers.add(row.publisher)
-            contexts.append(f"- {published.date()} · {row.publisher}. [{title}]({row.url})")
-            cited.append(
-                dict(
-                    provider=row.source,
-                    publisher=row.publisher,
-                    headline=title,
-                    url=row.url,
-                    published_at=row.published_at,
-                    retrieved_at=row.retrieved_at,
-                )
-            )
-            if len(cited) == 3:
-                break
-    news_audit = dict(
-        report_time=time,
-        providers=sorted(news.source.unique().tolist()),
-        articles_stored=len(news),
-        articles_cited=cited,
-        collection=store.metadata().get("news_collection"),
-        predictive_news_columns=[],
+    contexts, news_audit = select_news(
+        store.frame("news"), cfg, time, store.metadata().get("news_collection")
     )
     save_json(out / "news_context.json", news_audit)
     table = pd.DataFrame(projections)[["horizon", "kind", "price", "simple_return", "time"]]

@@ -52,6 +52,16 @@ def write_evaluation(
             "strict-before-close binning. Text was not present in the label files. Labelled users are self-selected. "
             "Price bars are full UTC days aggregated from the historical hourly Coinbase candles."
         )
+    if mode == "REAL_DATA" and metadata.get("x_collection"):
+        collection = metadata["x_collection"]
+        run_count = len(collection["runs"])
+        provenance = (
+            f"Apify Actor {collection['actor_id']} supplied a capped sample across {run_count} runs. "
+            "The manifest contains the actual query inputs, run and dataset IDs, and charge records. "
+            "Coregent searches return relevance-ranked results within each date stratum. Retrospective "
+            "ranking can depend on popularity accumulated after publication. Market-wide post volume and "
+            "the set of posts visible to a contemporaneous collector are unknown."
+        )
     confirmation = (ho.mae_ci_low > 0).sum()
     engine = audit["engine"].split(":")[0]
     summary = (
@@ -161,7 +171,7 @@ def write_evaluation(
         "Capped sampling, sparse coverage, changing regimes and domain mismatch "
         "can swamp small sentiment effects. Repeated texts, multilingual posts, quoted prices and bots complicate "
         "interpretation. FinBERT scores in this retrospective reconstruction use a pinned model artifact distributed "
-        "after the 2021 sample. They do not establish that this exact text model was deployable at each origin. "
+        "after the 2021 historical sample. Historical scores do not establish that this exact artifact was deployable then. "
         "Correlation does not identify information arrival or causation. A historical backtest "
         "cannot establish present market sentiment. News is retrieved separately for dated outlooks.",
         "The manifest records the exact feature order, model parameters, input and software hashes, provider runs, "
@@ -202,18 +212,12 @@ def write_outlook(out, frame, news, forecasts, mode, audit, cfg, selected, error
         else "stable"
     )
     fmt = lambda v: "unavailable" if pd.isna(v) else f"{v:.3f}"
-    items = []
-    for row in news.itertuples():
-        published, retrieved = [
-            pd.to_datetime(v, utc=True, errors="coerce") for v in (row.published_at, row.retrieved_at)
-        ]
-        if (
-            stamp - pd.Timedelta(days=7) <= published <= stamp
-            and retrieved <= stamp
-            and str(row.url).startswith(("https://", "http://"))
-        ):
-            title = str(row.title).replace("[", "(").replace("]", ")").replace("\n", " ")
-            items.append(f"- {published.date()} · {row.publisher or row.source}. [{title}]({row.url})")
+    from .ingest import save_json
+    from .news_context import select_news
+
+    asof = pd.Timestamp.now(tz="UTC") if mode == "REAL_DATA" else stamp
+    items, context = select_news(news, cfg, asof)
+    save_json(out / "news_context.json", context)
     results = pd.DataFrame(forecasts)[["horizon", "kind", "price", "simple_return", "time"]]
     text = [
         f"# {cfg.asset} | {cfg.platform} sentiment outlook",
@@ -225,7 +229,7 @@ def write_outlook(out, frame, news, forecasts, mode, audit, cfg, selected, error
         f"Positive and negative shares were {fmt(average(recent, 'bull_fraction'))} and {fmt(average(recent, 'bear_fraction'))}. "
         f"The observed close was {frame.close.iloc[-1]:,.2f}, a {frame.close.iloc[-1] / frame.close.iloc[-period - 1] - 1:+.2%} "
         "change over the same price window.",
-        "**Contemporaneous news**",
+        f"**News context as of {asof.strftime('%Y-%m-%d %H:%M UTC')}**",
         "\n".join(items[-5:]) or "No dated, contemporaneously retrieved Tavily/Exa articles available.",
         f"**Predictive outlook.** Validation selected {selected}. Empirical holdout one-bar price MAE was "
         f"{errors:.2f}. These point estimates have no calibrated prediction interval.",
@@ -309,7 +313,7 @@ def write_dashboard(out, frame, predictions, curves, forecasts, mode, cfg):
             )
         )
     mae_plot.update_yaxes(title_text="MAE · USD")
-    mae_plot.update_xaxes(title_text="Forecast horizon · hours", dtick=1)
+    mae_plot.update_xaxes(title_text="Forecast horizon · bars", dtick=1)
     for name, g in curves[curves.phase == "holdout"].groupby("model"):
         equity.add_trace(
             go.Scatter(x=g.time, y=g.equity, name=name, line={"color": colors.get(name, "#ef9a76")})

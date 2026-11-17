@@ -60,22 +60,39 @@ def splits(n, cfg):
 
 
 def evaluate(
-    frame, price_cols, all_cols, cfg, names=("persistence", "price_only", "sentiment_price", "boosting")
+    frame,
+    price_cols,
+    all_cols,
+    cfg,
+    names=("persistence", "price_only", "sentiment_price", "boosting"),
+    *,
+    earlier_frame=None,
 ):
     targets = make_targets(frame, cfg.horizons).dropna()
+    if earlier_frame is not None:
+        if not earlier_frame.index.is_monotonic_increasing or earlier_frame.index[-1] >= frame.index[0]:
+            raise ValueError("The archival segment must end before the recent segment begins")
+        old_y = make_targets(earlier_frame, cfg.horizons).dropna()
+        old_x = earlier_frame.loc[old_y.index]
     records, folds = [], []
     for fold, (phase, tr, te) in enumerate(splits(len(targets), cfg), 1):
         train, test = frame.iloc[tr], frame.iloc[te]
+        y_train = targets.iloc[tr]
+        if earlier_frame is not None:
+            train = pd.concat([old_x, train])
+            y_train = pd.concat([old_y, y_train])
         last_label = frame.index[tr[-1] + cfg.horizons]
         if last_label >= test.index[0]:
             raise ValueError("Training labels cross the forecast origin")
         # Fixed rule: training median absolute one-bar log return, with a round-trip cost floor.
-        threshold = max(float(targets.iloc[tr][1].abs().median()), 2 * cfg.cost_bps / 10000)
+        threshold = max(float(y_train[1].abs().median()), 2 * cfg.cost_bps / 10000)
         folds.append(
             dict(
                 fold=fold,
                 phase=phase,
-                train_rows=len(tr),
+                train_rows=len(train),
+                recent_train_rows=len(tr),
+                archive_train_rows=len(train) - len(tr),
                 test_rows=len(te),
                 train_start=train.index[0].isoformat(),
                 train_end=train.index[-1].isoformat(),
@@ -88,7 +105,7 @@ def evaluate(
         )
         for name in names:
             cols = price_cols if name in {"price_only", "persistence"} else all_cols
-            model = fit_model(train[cols], targets.iloc[tr], cfg.ridge_alpha, name, cfg.seed)
+            model = fit_model(train[cols], y_train, cfg.ridge_alpha, name, cfg.seed)
             with threadpool_limits(limits=2):
                 yhat = model.predict(test[cols])
             for h in range(1, cfg.horizons + 1):

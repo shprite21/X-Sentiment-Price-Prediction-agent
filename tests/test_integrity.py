@@ -15,12 +15,62 @@ from xsentiment.demo import populate
 from xsentiment.features import build_features
 from xsentiment.ingest import import_posts, normalize_post
 from xsentiment.model import evaluate, fit_model, select_model
-from xsentiment.providers import fetch_news, fetch_yahoo
+from xsentiment.providers import actor_input, fetch_news, fetch_yahoo
 from xsentiment.sentiment import score_posts
 from xsentiment.storage import Store
 
 
 class IntegrityTests(unittest.TestCase):
+    def test_historical_segment_labels_never_cross_the_market_gap(self):
+        def segment(start, scale):
+            index = pd.date_range(start, periods=140, freq="h", tz="UTC")
+            price = scale * np.exp(0.001 * np.arange(len(index)))
+            return pd.DataFrame(dict(open=price, close=price, x=np.arange(len(index))), index=index)
+
+        old, new = segment("2021-01-01", 1), segment("2026-01-01", 2000)
+
+        def checked(x, y, alpha, name, seed):
+            self.assertFalse(x.index.intersection(old.index[-5:]).size)
+            self.assertEqual(len(x.index.intersection(old.index)), len(old) - 5)
+            np.testing.assert_allclose(
+                y.to_numpy(), np.tile(np.arange(1, 6) * 0.001, (len(y), 1)), atol=1e-12
+            )
+            return fit_model(x, y, alpha, name, seed)
+
+        with patch("xsentiment.model.fit_model", side_effect=checked):
+            pred, folds = evaluate(
+                new,
+                ["x"],
+                ["x"],
+                Config(min_train=35, test_size=20, holdout=20),
+                names=("persistence",),
+                earlier_frame=old,
+            )
+        self.assertTrue((pred.time >= new.index[0]).all())
+        self.assertTrue(all(f["archive_train_rows"] == 135 for f in folds))
+
+    def test_coregent_schema_and_date_strata(self):
+        template = {"searchTerms": "{dated_queries}", "maxResults": "{limit}", "maxResultsPerInput": 5}
+        result = actor_input(template, Config(), utc("2026-05-21T12Z"), utc("2026-08-21T00Z"), 225)
+        self.assertEqual(len(result["searchTerms"]), 46)
+        self.assertIn("until:2026-08-21", result["searchTerms"][-1])
+        row = normalize_post(
+            dict(
+                tweet_id="1234567890123456789",
+                created_at="2026-05-23T12:16Z",
+                text="BTC",
+                is_reply=True,
+                like_count=41,
+                retweet_count=4,
+                author_followers=30,
+                author_username="fixture",
+            )
+        )
+        self.assertEqual(
+            (row["original_id"], row["likes"], row["reposts"], row["followers"], row["post_type"]),
+            ("1234567890123456789", 41, 4, 30, "reply"),
+        )
+
     def test_news_changes_current_outlook_without_changing_forecasts(self):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)

@@ -49,7 +49,9 @@ def main(argv=None):
     ingest.add_argument("--start")
     ingest.add_argument("--end")
     ingest.add_argument("--days", type=int)
-    ingest.add_argument("--items-per-day", type=int, default=300)
+    ingest.add_argument("--items-per-day", "--items-per-run", type=int, default=300)
+    ingest.add_argument("--window-days", type=int, default=1)
+    ingest.add_argument("--query-days", type=int, default=2)
     ingest.add_argument("--budget-usd", type=float, default=5.0)
     imp = sub.add_parser("import-posts", help="Stream an asset-specific CSV/JSONL or read a JSON array")
     imp.add_argument("path", type=Path)
@@ -197,6 +199,8 @@ def main(argv=None):
                         args.raw,
                         cfg=cfg,
                         items_per_day=args.items_per_day,
+                        window_days=args.window_days,
+                        query_days=args.query_days,
                         budget_usd=args.budget_usd,
                     )
                 if args.only in ("news", "all"):

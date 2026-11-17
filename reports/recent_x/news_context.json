@@ -1,0 +1,35 @@
+{
+  "report_time": "2026-11-17T12:35:42.584102+00:00",
+  "providers": [
+    "tavily"
+  ],
+  "articles_stored": 10,
+  "articles_cited": [
+    {
+      "provider": "tavily",
+      "publisher": "www.tradingview.com",
+      "headline": "Anthropic IPO Frenzy Is Competing With Bitcoin For Investor Cash, Says Strategist — But Institutions ‘Not Backing Away’ Anytime Soon — TradingView News",
+      "url": "https://www.tradingview.com/news/stocktwits:15a953244094b:0-anthropic-ipo-frenzy-is-competing-with-bitcoin-for-investor-cash-says-strategist-but-institutions-not-backing-away-anytime-soon",
+      "published_at": "2026-11-17T09:00:00+00:00",
+      "retrieved_at": "2026-11-17T12:19:30.376261+00:00"
+    },
+    {
+      "provider": "tavily",
+      "publisher": "finance.yahoo.com",
+      "headline": "Bitcoin's four-year cycle is about to turn bullish — if history repeats: Chart of the Day",
+      "url": "https://finance.yahoo.com/markets/crypto/article/bitcoins-four-year-cycle-is-about-to-turn-bullish--if-history-repeats-chart-of-the-day-141744431.html",
+      "published_at": "2026-11-16T12:00:00+00:00",
+      "retrieved_at": "2026-11-17T12:19:30.376261+00:00"
+    },
+    {
+      "provider": "tavily",
+      "publisher": "99bitcoins.com",
+      "headline": "5 Reasons Bitcoin Could See a Wild Week This Week",
+      "url": "https://99bitcoins.com/news/bitcoin-btc/bitcoin-this-week-nvidia-fed-russia-anthropic",
+      "published_at": "2026-11-16T09:50:00+00:00",
+      "retrieved_at": "2026-11-17T12:19:30.376261+00:00"
+    }
+  ],
+  "collection": null,
+  "predictive_news_columns": []
+}

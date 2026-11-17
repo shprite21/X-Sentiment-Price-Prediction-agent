@@ -139,7 +139,7 @@ def normalize_post(item, source="apify", observed_at=None, *, platform="X", lice
             return None
     if pd.isna(stamp):
         return None
-    original_id = item.get("id_str") or item.get("id")
+    original_id = item.get("id_str") or item.get("id") or item.get("tweet_id")
     ident = original_id or hashlib.sha256((stamp.isoformat() + "\0" + text).encode()).hexdigest()
     now = pd.Timestamp.now(tz="UTC").isoformat()
     seen = utc(observed_at).isoformat() if observed_at is not None else now
@@ -148,11 +148,16 @@ def normalize_post(item, source="apify", observed_at=None, *, platform="X", lice
         "id": str(ident),
         "created_at": stamp.isoformat(),
         "text": str(text),
-        "likes": number(item.get("likeCount"), item.get("likes")),
-        "reposts": number(item.get("retweetCount"), item.get("reposts"), item.get("retweets")),
-        "views": number(item.get("viewCount"), item.get("views")),
+        "likes": number(item.get("likeCount"), item.get("likes"), item.get("like_count")),
+        "reposts": number(
+            item.get("retweetCount"), item.get("reposts"), item.get("retweets"), item.get("retweet_count")
+        ),
+        "views": number(item.get("viewCount"), item.get("views"), item.get("view_count")),
         "followers": number(
-            author.get("followers"), author.get("followersCount"), item.get("user_followers")
+            author.get("followers"),
+            author.get("followersCount"),
+            item.get("user_followers"),
+            item.get("author_followers"),
         ),
         "source": source,
         "observed_at": seen,
@@ -163,11 +168,11 @@ def normalize_post(item, source="apify", observed_at=None, *, platform="X", lice
         "method": method or ("apify" if source == "apify" else "file import"),
         "license": license,
         "available_at": utc(available).isoformat() if available else None,
-        "username": author.get("userName") or item.get("username"),
-        "author_name": author.get("name") or item.get("user_name"),
+        "username": author.get("userName") or item.get("username") or item.get("author_username"),
+        "author_name": author.get("name") or item.get("user_name") or item.get("author_name"),
         "author_id": author.get("id") or item.get("author_id") or item.get("user_id"),
         "post_type": "reply"
-        if item.get("inReplyToId") or item.get("isReply") is True
+        if item.get("inReplyToId") or item.get("isReply") is True or item.get("is_reply") is True
         else "original"
         if "isRetweet" in item or "is_retweet" in item
         else "unknown",

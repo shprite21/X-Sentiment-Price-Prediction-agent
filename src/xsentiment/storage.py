@@ -200,7 +200,7 @@ class Store:
                     source=source,
                     digest=digest,
                     platform=platform,
-                    original_id=item.get("id") or item.get("id_str"),
+                    original_id=item.get("id") or item.get("id_str") or item.get("tweet_id"),
                     acquired_at=observed,
                     payload=item,
                 )

@@ -1,0 +1,8 @@
+{
+  "searchTerms": "{dated_queries}",
+  "maxResultsPerInput": 5,
+  "maxResults": "{limit}",
+  "language": "en",
+  "includeReplies": false,
+  "includeRetweets": false
+}

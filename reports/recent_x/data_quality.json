@@ -1,0 +1,28 @@
+{
+  "input_posts": 414,
+  "duplicate_ids": 0,
+  "duplicate_text": 11,
+  "irrelevant_or_empty": 2,
+  "unique_text_posts_in_window": 401,
+  "engine": "finbert:e5897858ff819aad7629b96ce521ae5477952d03634ef5dd30ed2d76357a9f00:f6449ddda85eb726:07eced375cec144d:ffc7913f6084b138:303df45a03609e4e",
+  "first_post_utc": "2026-05-21T16:34:12+00:00",
+  "last_post_utc": "2026-11-17T11:42:00+00:00",
+  "price_rows": 4320,
+  "aligned_observations": 4320,
+  "usable_feature_rows": 4248,
+  "labeled_observations": 4243,
+  "first_close_utc": "2026-05-21T13:00:00+00:00",
+  "last_close_utc": "2026-11-17T12:00:00+00:00",
+  "missing_price_bars": 0,
+  "hours_with_posts": 366,
+  "hours_without_posts": 3882,
+  "missing_sentiment_intervals_before_warmup_filter": 3949,
+  "hour_coverage_fraction": 0.08615819209039548,
+  "engagement_used_as_features": false,
+  "availability": "publication",
+  "price_providers": [
+    "yfinance"
+  ],
+  "raw_payloads_in_sources": 420,
+  "normalized_source_rows": 414
+}

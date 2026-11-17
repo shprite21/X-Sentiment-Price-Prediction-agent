@@ -28,7 +28,7 @@ DEFAULT_TEMPLATE = {
 }
 
 
-def actor_input(template, cfg, left, right, limit):
+def actor_input(template, cfg, left, right, limit, query_days=2):
     terms = dict.fromkeys([cfg.ticker, "$" + cfg.ticker, cfg.company, *cfg.keywords])
     lookup = {
         "{query}": "("
@@ -40,6 +40,13 @@ def actor_input(template, cfg, left, right, limit):
         "{end}": right.isoformat(),
         "{limit}": limit,
     }
+    if query_days < 1:
+        raise ValueError("Query length must be positive")
+    dates = pd.date_range(left.normalize(), right.ceil("D"), freq=f"{query_days}D", inclusive="left")
+    lookup["{dated_queries}"] = [
+        f"{lookup['{query}']} since:{d.date()} until:{min(d + pd.Timedelta(days=query_days), right.ceil('D')).date()}"
+        for d in dates
+    ]
 
     def render(v):
         if isinstance(v, dict):
@@ -56,12 +63,14 @@ def actor_input(template, cfg, left, right, limit):
     return render(template)
 
 
-def fetch_x(store, start, end, raw_dir, *, items_per_day=300, budget_usd=5.0, cfg=None):
+def fetch_x(
+    store, start, end, raw_dir, *, items_per_day=300, budget_usd=5.0, cfg=None, window_days=1, query_days=2
+):
     from .ingest import normalize_post, save_json
 
     cfg = cfg or Config()
     token = os.environ.get("APIFY_TOKEN")
-    if not token or min(budget_usd, items_per_day) <= 0:
+    if not token or min(budget_usd, items_per_day, window_days, query_days) <= 0:
         raise ValueError("Configure APIFY_TOKEN and positive budget and result limits")
     actor = (os.getenv("APIFY_ACTOR_ID") or ACTOR).replace("/", "~")
     template_file = os.getenv("APIFY_INPUT_FILE")
@@ -76,12 +85,12 @@ def fetch_x(store, start, end, raw_dir, *, items_per_day=300, budget_usd=5.0, cf
     left, end = utc(start), utc(end)
     intervals = []
     while left < end:
-        right = min(left.normalize() + pd.Timedelta(days=1), end)
+        right = min(left.normalize() + pd.Timedelta(days=window_days), end)
         intervals.append((left, right))
         left = right
     runs = []
     for left, right in intervals:
-        inputs = actor_input(template, cfg, left, right, items_per_day)
+        inputs = actor_input(template, cfg, left, right, items_per_day, query_days)
         plan = dict(actor=actor, input=inputs, budget=budget_usd / len(intervals))
         identity = hashlib.sha256(f"{cfg.asset}/{actor}/{left}/{right}".encode()).hexdigest()[:24]
         prefix = Path(raw_dir) / ("apify_" + identity)
@@ -105,7 +114,6 @@ def fetch_x(store, start, end, raw_dir, *, items_per_day=300, budget_usd=5.0, cf
                     json.dump(plan, handle)
                 run = client.actor(actor).start(
                     run_input=inputs,
-                    max_items=items_per_day,
                     max_total_charge_usd=Decimal(str(plan["budget"])),
                 )
                 run = {k: str(run[k]) for k in ("id", "status", "defaultDatasetId") if k in run}
@@ -135,12 +143,28 @@ def fetch_x(store, start, end, raw_dir, *, items_per_day=300, budget_usd=5.0, cf
                 raw=offset,
                 posts=accepted,
                 cap_hit=offset >= items_per_day,
+                charged_events=final.get("chargedEventCounts"),
+                usage_total_usd=final.get("usageTotalUsd"),
+                run_budget_usd=plan["budget"],
             )
             runs.append(record)
             store.record(identity, "apify", "succeeded", record)
         except Exception as exc:
-            store.record(identity, "apify", "incomplete", dict(record, error=type(exc).__name__))
-            LOG.error("Apify collection incomplete window=%s run=%s", left, record.get("id"))
+            api_status = getattr(exc, "status_code", None)
+            reason = str(getattr(exc, "message", "") or "").replace(token, "[redacted]")[:400]
+            store.record(
+                identity,
+                "apify",
+                "incomplete",
+                dict(record, error=type(exc).__name__, status_code=api_status, reason=reason),
+            )
+            LOG.error(
+                "Apify collection incomplete window=%s run=%s status=%s detail=%s",
+                left,
+                record.get("id"),
+                api_status,
+                reason,
+            )
             raise RuntimeError(
                 f"Apify collection incomplete ({type(exc).__name__}); inspect ingestion_runs"
             ) from None

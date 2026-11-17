@@ -1,0 +1,33 @@
+{
+  "actor_id": "coregent~x-tweet-scraper",
+  "runs": [
+    {
+      "run_id": "83Bi2JZtvVJfW6h6g",
+      "finished_at": "2026-11-17T12:32:29.604000+00:00",
+      "status": "SUCCEEDED",
+      "configured_cap_usd": 0.45,
+      "usage_total_usd": 0.42,
+      "charged_events": {
+        "tweet-result": 210
+      },
+      "event_prices_usd": {
+        "tweet-result": 0.002
+      },
+      "charged_events_usd": 0.42
+    },
+    {
+      "run_id": "7R0oSVc5Sy2VEhXfd",
+      "finished_at": "2026-11-17T12:34:39.662000+00:00",
+      "status": "SUCCEEDED",
+      "configured_cap_usd": 0.45,
+      "usage_total_usd": 0.42,
+      "charged_events": {
+        "tweet-result": 210
+      },
+      "event_prices_usd": {
+        "tweet-result": 0.002
+      },
+      "charged_events_usd": 0.42
+    }
+  ]
+}

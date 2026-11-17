@@ -1,0 +1,61 @@
+{
+  "mode": "REAL_DATA",
+  "asset": "BTC-USD",
+  "selected_model": "persistence",
+  "model_version": "ff23c467d009bbe265e6c071371278f2183b4227b949f79b8a5ef4342ea9f9bd",
+  "training_timestamp": "2026-11-17T12:35:40.109279+00:00",
+  "data_cutoff": "2026-11-17T12:00:00+00:00",
+  "feature_cutoff": "2026-11-17T12:00:00+00:00",
+  "prediction_timestamp": "2026-11-17T12:35:40.109279+00:00",
+  "forecast_origin": "2026-11-17T12:00:00+00:00",
+  "forecasts": [
+    {
+      "horizon": 0,
+      "time": "2026-11-17T12:00:00+00:00",
+      "price": 64927.8515625,
+      "kind": "observed",
+      "log_return": 0.0,
+      "simple_return": 0.0
+    },
+    {
+      "horizon": 1,
+      "time": "2026-11-17T13:00:00+00:00",
+      "price": 64927.8515625,
+      "kind": "forecast",
+      "log_return": 0.0,
+      "simple_return": 0.0
+    },
+    {
+      "horizon": 2,
+      "time": "2026-11-17T14:00:00+00:00",
+      "price": 64927.8515625,
+      "kind": "forecast",
+      "log_return": 0.0,
+      "simple_return": 0.0
+    },
+    {
+      "horizon": 3,
+      "time": "2026-11-17T15:00:00+00:00",
+      "price": 64927.8515625,
+      "kind": "forecast",
+      "log_return": 0.0,
+      "simple_return": 0.0
+    },
+    {
+      "horizon": 4,
+      "time": "2026-11-17T16:00:00+00:00",
+      "price": 64927.8515625,
+      "kind": "forecast",
+      "log_return": 0.0,
+      "simple_return": 0.0
+    },
+    {
+      "horizon": 5,
+      "time": "2026-11-17T17:00:00+00:00",
+      "price": 64927.8515625,
+      "kind": "forecast",
+      "log_return": 0.0,
+      "simple_return": 0.0
+    }
+  ]
+}

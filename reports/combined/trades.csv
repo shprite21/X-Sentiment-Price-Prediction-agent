@@ -1,0 +1,2 @@
+time,signal_time,position,gross_return,turnover,net_return,cost,fold,equity,drawdown,phase,model
+2026-11-05 17:00:00+00:00,2026-11-05 16:00:00+00:00,1.0,0.005161728603017002,2.0,0.0031524103075395438,0.002009318295477458,6,1.0031524103075395,0.0,holdout,boosting

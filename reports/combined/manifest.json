@@ -1,0 +1,36 @@
+{
+  "experiment": "C",
+  "mode": "REAL_SEGMENTED_X",
+  "id": "94d9dfa08792913e5e7e9cda3b7386ff0d5c1881decf097d05ce923d6d16e748",
+  "historical_run": "4630dc316a3ccd2d92c79233a0303cc86678c5a31ff22be4977ca7393b94b61f",
+  "recent_run": "ff23c467d009bbe265e6c071371278f2183b4227b949f79b8a5ef4342ea9f9bd",
+  "selected_model": "boosting",
+  "selection_log_rmse": {
+    "boosting": 0.006619936979979632,
+    "persistence": 0.00662768599653329,
+    "price_only": 0.006740003795236386,
+    "sentiment_price": 0.006783768519068888
+  },
+  "archive_rows": 4243,
+  "recent_initial_train_rows": 2110,
+  "recent_test_range": [
+    "2026-08-20T16:00:00+00:00",
+    "2026-11-17T07:00:00+00:00"
+  ],
+  "evaluation_basis": "recent origins only",
+  "holdout_pooled_ridge_mae_wins": 0,
+  "artifact_sha256": {
+    "archive_increment.csv": "dd87ec1c9611388939730f380fdfd98031d700168a463d25a9d2e9896876a4c1",
+    "evaluation_report.md": "7f76a503a18bcfe81148a214f4bacd8aecfc184a5ea30b084529961be88b4c08",
+    "folds.json": "3243386b2dc033921de06a9c955643989f876501af8a5823bed4775c6615b02b",
+    "fold_metrics.csv": "44dd0b756292c83a244e48a1b1d5ee1ecab00ab315a9b241960d8c09526b559d",
+    "forecast_metrics.csv": "1aee71f9d73dba993cef7182ef157b58b38ec51a1c2f61346f1b7269ea1e1c69",
+    "historical_only_on_recent.csv": "de0069a9dd4a2c33a778843b645f10f97b10a2a10cde281861ee8b8f594fbff9",
+    "incremental.csv": "037d07b51d828f4cc8502acbeb6b6510991f24f82ae5c58b7f10385cb66fd0b3",
+    "period_distributions.csv": "64778fe9ebfc997c248c4f8b7721eb32403decdf4f272c02253f512193cc4abf",
+    "predictions.csv": "1e8820aade1f0e6ae1a45a469be1273e6307d342ad1e3dfb1b17f79ae97742e8",
+    "strategy_metrics.csv": "7119d582652949743d00a690494b3d8d9c768abb4ea515d67ce676c649bf6dd7",
+    "strategy_returns.csv": "e58a29482e6a242fe9df94d9a2e835c7ab2dc0fb8a47d3e4d00b37f98545c8cc",
+    "trades.csv": "76069b2008eb0712662e58dcd1e1a1095121b7339d639206d2f3954289098072"
+  }
+}
